@@ -4,7 +4,7 @@
 	import Footer from "./Footer.svelte";
 
 	import Header from "./Header.svelte";
-	//import Expertise from "./Expertise.svelte";
+	import Expertise from "./Expertise.svelte";
 	import Quote from "./Quote.svelte";
 	import ScrollToTopButton from "./ScrollToTopButton.svelte";
 	import Services from "./Services.svelte";
