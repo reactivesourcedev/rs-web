@@ -232,7 +232,7 @@ body.modal-open {
 }
 
 .services .desc {
-    margin-bottom: 100px;
+    margin-bottom: 25px;
 }
 
 /*****************************************/
@@ -883,9 +883,10 @@ input.invalid-input {
     }
 }
 
-
-
-
 .show-element {
     opacity: 1;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
 }

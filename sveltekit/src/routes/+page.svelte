@@ -1,14 +1,14 @@
 <script>
-	import Banner from "./Banner.svelte";
-	import Contact from "./Contact.svelte";
-	import Footer from "./Footer.svelte";
+	import Banner from "$lib/components/Banner.svelte";
+	import Contact from "$lib/components/Contact.svelte";
+	import Footer from "$lib/components/Footer.svelte";
 
-	import Header from "./Header.svelte";
-	import Expertise from "./Expertise.svelte";
-	import Quote from "./Quote.svelte";
-	import ScrollToTopButton from "./ScrollToTopButton.svelte";
-	import Services from "./Services.svelte";
-	import SoftwareDesign from "./SoftwareDesign.svelte";
+	import Header from "$lib/components/Header.svelte";
+	import Expertise from "$lib/components/Experience.svelte";
+	import Quote from "$lib/components/Quote.svelte";
+	import ScrollToTopButton from "$lib/components/ScrollToTopButton.svelte";
+	import Services from "$lib/components/Services.svelte";
+	import SoftwareDesign from "$lib/components/SoftwareDesign.svelte";
     
 	import { setupI18n } from '$lib/services/i18n';
 
@@ -30,7 +30,7 @@
 </script>
 
 <svelte:head>
-	<title>Reactive Source | Desarrollo de Software, Web y Aplicaciones Apps en Cali, Colombia</title>
+	<title>Reactive Source • Desarrollo de Software, Web y Aplicaciones Apps en Cali, Colombia</title>
 	<meta name="description" content="Desarrollo Personalizado y Multiplataforma, Desarrollamos aplicaciones web, móviles y de escritorio. Construimos y desplegamos software en diferentes plataformas tecnológicas y sistemas operativos. Estamos ubicados en Cali, Colombia." />
 </svelte:head>
 

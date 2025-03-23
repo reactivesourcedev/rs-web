@@ -16,20 +16,22 @@
         />
         <div class="info">
             <p>Reactive Source S.A.S.</p>
-            <p>+57 321 6242943</p>
+            <a href="https://wa.me/573216242943" target="_blank" style="text-decoration:none">
+                <p><i class="fab fa-whatsapp"></i> +57 321 6242943</p>
+            </a>
             <p>contact@reactivesource.com</p>
             <p>Cali, Colombia</p>
         </div>
         <div class="social">
             <ul class="p-0">
                 <li class="item-1">
-                    <a href="https://www.linkedin.com/company/reactive-source-sas/"><i class="fab fa-linkedin-in grow" /></a>
+                    <a href="https://www.linkedin.com/company/reactive-source-sas/" target="_blank"><i class="fab fa-linkedin-in grow" ></a>
                 </li>
                 <li class="item-2">
-                    <a href="https://www.facebook.com/reactivesource/"><i class="fab fa-facebook-f grow" /></a>
+                    <a href="https://www.facebook.com/reactivesource/" target="_blank"><i class="fab fa-facebook-f grow" /></a>
                 </li>
                 <li class="item-3">
-                    <a href="https://twitter.com/Reactive_Source"><i class="fab fa-twitter grow" /></a>
+                    <a href="https://twitter.com/Reactive_Source" target="_blank"><i class="fab fa-twitter grow" /></a>
                 </li>                
             </ul>
         </div>
