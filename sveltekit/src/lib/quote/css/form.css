@@ -1,0 +1,386 @@
+    .grecaptcha-badge {
+        position: fixed !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        margin-bottom: 12px;
+        display: none !important;
+    }
+    
+    .contact-form input,
+    textarea,
+    button {
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        border-bottom: 1px solid #212121;
+    }
+    
+    button.btn-rs[type=submit] {
+        width: 100%;
+        height: 50px;
+        background-color: #23A6D5;
+        font-weight: bold;
+        color: #fff;
+        border: none;
+    }
+    
+    button.btn-rs[type=submit]:hover {
+        background-color: transparent;
+        border: 3px solid #fff;
+    }
+    
+    .contact-form {
+        box-shadow: none;
+        border: none;
+        color: #121212;
+        background-color: transparent;
+    }
+    
+    .modal-header {
+        text-align: center !important;
+    }
+    
+    .contact-form input,
+    textarea {
+        border: none;
+        border-radius: 24px;
+        padding-left: 20px;
+        /*font-weight: bold !important;*/
+    }
+    
+    .contact-form input {
+        height: 48px;
+    }
+    
+    .form-group {
+        line-height: 0px !important;
+        margin-bottom: 1rem !important;
+        /*margin-bottom: 6px !important;*/
+    }
+    
+    .contact-form textarea {
+        border-radius: 24px;
+        padding-left: 20px;
+        padding-top: 16px;
+        resize: none;
+        /*font-weight: bold !important;*/
+    }
+    
+    button.btn-rs[type=submit] {
+        width: 100%;
+        height: 50px;
+        background-color: #23A6D5;
+        font-weight: 400;
+        color: #fff;
+        border: none;
+    }
+    
+    .contact-form {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*top: 25%;
+    transform: translateY(-25%);*/
+        position: relative;
+        max-width: 100%;
+    }
+    
+    .contact-form .container {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .contact-form .close {
+        color: #fff;
+        opacity: 1;
+        font-size: 68px;
+        font-weight: 100;
+    }
+    
+    button.btn-rs {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        outline: none;
+        border: 0;
+        vertical-align: middle;
+        text-decoration: none;
+        background: transparent;
+        padding: 0;
+    }
+    
+    .contact-form {
+        background-color: #121212;
+        padding: 15px;
+    }
+    
+    .contact-form input,
+    textarea {
+        width: 100%;
+        font-weight: 400;
+        border: 1px solid transparent;
+        background-color: #fff;
+    }
+    
+    .contact-form ::placeholder {
+        color: #121212;
+    }
+    
+    .gif {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 4px;
+        left: 4px;
+        opacity: 0;
+        transition: opacity 0.3s;
+        transform: translate(1rem, 0);
+    }
+    
+    #success-icon {
+        width: 32px;
+        height: 32px;
+        top: 8px;
+        left: 24px;
+        transform: translate(-0.15rem, 0);
+    }
+    /* button */
+    
+    button.btn-rs.btn-rs .circle .icon.arrow::before {
+        border-top: 0.125rem solid #121212 !important;
+        border-right: 0.125rem solid #121212 !important;
+    }
+    
+    button.btn-rs.btn-rs .circle {
+        background: #fff;
+    }
+    
+    button.btn-rs.btn-rs .circle .icon {
+        background: #fff;
+    }
+    
+    button.btn-rs.btn-rs .circle .icon.arrow::before {
+        border-top: 0.125rem solid #121212;
+        border-right: 0.125rem solid #121212;
+    }
+    
+    button.btn-rs.btn-rs .button-text {
+        color: #fff;
+    }
+    
+    button.btn-rs:hover .circle .icon.arrow {
+        background: #fff;
+    }
+    
+    button.btn-rs:hover .button-text {
+        color: #121212;
+    }
+    
+    button.btn-rs {
+        width: 14em;
+        height: auto;
+    }
+    
+    button.btn-rs .circle {
+        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+        position: relative;
+        display: block;
+        margin: 0;
+        width: 3rem;
+        height: 3rem;
+        background: #fff;
+        border-radius: 1.625rem;
+    }
+    
+    button.btn-rs .circle .icon {
+        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: #fff;
+    }
+    
+    button.btn-rs .circle .icon.arrow {
+        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+        left: 0.625rem;
+        width: 1.125rem;
+        height: 0.125rem;
+        background: none;
+    }
+    
+    button.btn-rs .circle .icon.arrow::before {
+        position: absolute;
+        content: "";
+        top: -0.25rem;
+        right: 0.0625rem;
+        width: 0.625rem;
+        height: 0.625rem;
+        border-top: 0.125rem solid #121212;
+        border-right: 0.125rem solid #121212;
+        transform: rotate(45deg);
+    }
+    
+    button.btn-rs .button-text {
+        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0.75rem 0;
+        margin: 0 0 0 1em;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 1.3em;
+        text-align: center;
+    }
+    
+    button:hover .circle {
+        width: 100%;
+    }
+    
+    button:hover .circle .icon.arrow {
+        background: #fff;
+        transform: translate(1rem, 0);
+    }
+    
+    button:hover .button-text {
+        color: #121212;
+    }
+    /* clicked button with wait callback*/
+    
+    .btn-rs.expanded .circle {
+        width: 100%;
+    }
+    
+    .btn-rs.expanded .button-text {
+        color: white !important;
+    }
+    
+    .btn-rs.expanded .circle .icon.arrow {
+        background: #fff;
+        transform: translate(1rem, 0);
+    }
+    
+    input.invalid-input {
+        animation: alert-anim 1s ease-out 0s alternate infinite none running;
+        border: 2px #900C3F solid;
+    }
+    
+    @keyframes alert-anim {
+        0% {
+            border: 2px #ff0000 solid;
+            box-shadow: 0 0 0 0 #ff0000;
+        }
+        50% {
+            border: 2px #fc6464 solid;
+            box-shadow: 2px 2px 2px 0 #fc6464;
+        }
+        100% {
+            border: 2px #ff841f solid;
+            box-shadow: 4px 4px 4px 0 #ff841f;
+        }
+    }
+    
+    #btnContactFormQ img {
+        margin: 0px;
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+    /* -- end*/
+    
+    @media (max-width: 820px) {
+        .contact-form input,
+        textarea {
+            font-size: 24px;
+        }
+        .contact-form input {
+            height: 60px;
+        }
+        .contact-form .container {
+            max-width: 600px;
+        }
+        button.btn-rs {
+            width: 15em;
+            height: auto;
+        }
+        button.btn-rs .button-text {
+            font-size: 2em !important;
+            padding: 0.9rem 0;
+        }
+        button.btn-rs .circle {
+            height: 4rem;
+            width: 4rem;
+            border-radius: 2rem;
+        }
+        button:hover .circle {
+            width: 100%;
+        }
+        button.btn-rs .circle .icon.arrow {
+            left: 1.2rem;
+        }
+        .gif {
+            width: 2.8rem !important;
+            height: 2.8rem !important;
+            top: .6rem !important;
+            left: .7rem !important;
+        }
+        #success-icon {
+            transform: translate(0.5rem, 0);
+        }
+    }
+    
+    @media (max-width: 470px) {
+        .contact-form input,
+        textarea {
+            font-size: 40px;
+        }
+        .contact-form input {
+            height: 120px;
+        }
+        .contact-form .container {
+            max-width: 90%;
+        }
+        button.btn-rs {
+            width: 20rem;
+            height: auto;
+        }
+        button.btn-rs .button-text {
+            font-size: 3em !important;
+            padding: 1.4rem 0;
+        }
+        button.btn-rs .circle {
+            height: 6rem;
+            width: 6rem;
+            border-radius: 3rem;
+        }
+        button:hover .circle {
+            width: 100%;
+        }
+        button.btn-rs .circle .icon.arrow {
+            left: 1.2rem;
+        }
+        button.btn-rs .circle .icon.arrow::before {
+            position: absolute;
+            content: "";
+            top: -0.8rem;
+            right: -0.8rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            border-top: 0.3rem solid #121212;
+            border-right: 0.3rem solid #121212;
+            transform: rotate(45deg);
+        }
+        .gif {
+            width: 4rem !important;
+            height: 4rem !important;
+            top: .9rem !important;
+            left: .7rem !important;
+        }
+        #success-icon {
+            transform: translate(0.5rem, 0);
+        }
+    }

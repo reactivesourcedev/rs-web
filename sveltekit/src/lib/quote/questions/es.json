@@ -1,0 +1,533 @@
+{
+    "options": {
+
+        "0-0": {
+            "title": "Bienvenido",
+            "description": "Este cotizador web es una herramienta que permite estimar el costo del desarrollo de un proyecto. Los cálculos generan costos para plataformas web y aplicaciones móviles. Para proyectos ya iniciados, gran escala, videojuegos o para diferentes sistemas operativos, puede ponerse en contacto con nosotros para una mejor asistencia y detalle.",
+            "hasActions": false,
+            "options": [{
+                    "answer": "Empezar",
+                    "goto": "3-0"
+                },
+                {
+                    "answer": "Contactar",
+                    "goto": "end1"
+                }
+            ]
+        },
+        "1-0": {
+            "title": "",
+            "description": "",
+            "options": [
+
+            ]
+        },
+        "2-0": {
+            "title": "",
+            "description": "",
+            "options": [
+
+            ]
+        },
+        "3-0": {
+            "title": "Plataforma",
+            "description": "Seleccione las plataformas en las que desea ejecutar su aplicación o servicio",
+            "hasActions": true,
+            "endOfSection": "3-5",
+            "section": "plataforma",
+            "options": [{
+                    "answer": "WEB",
+                    "goto": "none",
+                    "action": "selectOption('plataforma','web',1"
+                },
+                {
+                    "answer": "Android",
+                    "goto": "none",
+                    "action": "selectOption('plataforma','android',1.1"
+                },
+                {
+                    "answer": "iOS",
+                    "goto": "none",
+                    "action": "selectOption('plataforma','ios',1.4"
+                },
+                {
+                    "answer": "Aceptar",
+                    "goto": "4-0",
+                    "action": "checkPlatforms('plataforma'"
+                }
+            ]
+
+        },
+        "3-1": {
+            "title": "Paga",
+            "description": "¿Los usuarios tienen que invertir dinero para acceder completamente a la aplicación?",
+            "hasActions": false,
+            "section": "paga",
+            "options": [{
+                    "answer": "No",
+                    "goto": "3-2",
+                    "action": "addParameter('paga',false,0"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "3-3",
+                    "action": "addParameter('paga',true,500000"
+                }
+            ]
+        },
+        "3-2": {
+            "title": "Publicidad",
+            "description": "¿Tiene contenido publicitario o integración con plataformas como AdSense?",
+            "hasActions": false,
+            "section": "publicidad",
+            "options": [{
+                    "answer": "No",
+                    "goto": "3-4",
+                    "action": "addParameter('publicidad',false,0"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "3-4",
+                    "action": "addParameter('publicidad',true,300000"
+                }
+            ]
+        },
+        "3-3": {
+            "title": "Compras",
+            "description": "¿Se realizarán algún tipo de compras dentro del aplicativo?",
+            "hasActions": false,
+            "section": "comprasEnApp",
+            "options": [{
+                    "answer": "No",
+                    "goto": "3-5",
+                    "action": "addParameter('comprasEnApp',false,0"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "3-5",
+                    "action": "addParameter('comprasEnApp',true,1500000"
+                }
+            ]
+        },
+        "3-4": {
+            "title": "App's nativo",
+            "description": "¿Maneja características propias del dispositivo como GPS, contactos, calendarios o llamadas?¿O considera hacer un desarrollo nativo (App por cada plataforma disponible)?",
+            "hasActions": false,
+            "section": "nativo",
+            "options": [{
+                    "answer": "No",
+                    "goto": "3-5",
+                    "action": "addParameter('nativo',false,500000"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "3-5",
+                    "action": "addParameter('nativo',true,1500000"
+                }
+            ]
+        },
+        "3-5": {
+            "title": "Integración",
+            "description": "¿Tiene algún sitio web o plataforma que se quiera integrar con una aplicación movíl?",
+            "hasActions": false,
+            "section": "integracion",
+            "options": [{
+                    "answer": "No",
+                    "goto": "4-0",
+                    "action": "addParameter('integracion',false,500000"
+                },
+                {
+                    "answer": "Si",
+                    "goto": "4-0",
+                    "action": "addParameter('integracion',true,1800000"
+                }
+            ]
+        },
+        "4-0": {
+            "title": "Idiomas",
+            "description": "¿El aplicativo va a estar disponible en más de un idioma/lenguaje?",
+            "hasActions": false,
+            "section": "lenguajes",
+            "options": [{
+                    "answer": "No",
+                    "goto": "5-0",
+                    "action": "addParameter('lenguajes',1,0"
+                },
+                {
+                    "answer": "Si",
+                    "goto": "5-0",
+                    "action": "addParameter('lenguajes',3,800000"
+                }
+            ]
+        },
+
+        "5-0": {
+            "title": "Calidad",
+            "description": "¿De lo siguiente que considera mas relevante?",
+            "hasActions": false,
+            "section": "calidad",
+            "options": [{
+                    "answer": "Funcionalidad",
+                    "goto": "6-0",
+                    "action": "addParameter('calidad',false,1"
+                },
+                {
+                    "answer": "Usabilidad",
+                    "goto": "6-0",
+                    "action": "addParameter('calidad',false,1.2"
+                },
+                {
+                    "answer": "Ambos",
+                    "goto": "6-0",
+                    "action": "addParameter('calidad',true,1.5"
+                }
+            ]
+        },
+        "6-0": {
+            "title": "Usuarios",
+            "description": "¿Necesita manejo de cuentas para usuarios?",
+            "hasActions": false,
+            "endOfSection": "6-4",
+            "section": "usuarios",
+            "options": [{
+                    "answer": "No",
+                    "goto": "7-0",
+                    "action": "addParameter('usuarios',false,0"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "6-1",
+                    "action": "addParameter('usuarios',true,1000000"
+                }
+            ]
+        },
+
+        "6-1": {
+            "title": "Login o Ingreso",
+            "description": "¿Sus usuarios van a poder ingresar mediante redes sociales?",
+            "hasActions": false,
+            "section": "social",
+            "options": [{
+                    "answer": "No",
+                    "goto": "6-2",
+                    "action": "addParameter('social',false,0"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "6-2",
+                    "action": "addParameter('social',true,800000"
+                }
+            ]
+        },
+
+        "6-2": {
+            "title": "Perfil",
+            "description": "¿Sus usuarios tendrán perfiles propios, para editar y mostrar información publica?",
+            "hasActions": false,
+            "section": "perfil",
+            "options": [{
+                    "answer": "No",
+                    "goto": "6-3",
+                    "action": "addParameter('perfil',false,0"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "6-3",
+                    "action": "addParameter('perfil',true,700000"
+                }
+            ]
+        },
+        "6-3": {
+            "title": "Interacción",
+            "description": "¿Sus usuarios podrán interactuar entre sí mediante comentarios, likes, publicaciones, posts, etc.?",
+            "hasActions": false,
+            "section": "interaccion",
+            "options": [{
+                    "answer": "No",
+                    "goto": "6-4",
+                    "action": "addParameter('interaccion',false,0"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "6-4",
+                    "action": "addParameter('interaccion',true,1400000"
+                }
+            ]
+        },
+        "6-4": {
+            "title": "Contenido",
+            "description": "¿Sus usuarios podrán subir contenido multimedia? ¿Imágenes, audio o video?",
+            "hasActions": false,
+            "section": "multimedia",
+            "options": [{
+                    "answer": "No",
+                    "goto": "7-0",
+                    "action": "addParameter('multimedia',false,0"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "7-0",
+                    "action": "addParameter('multimedia',true,2200000"
+                }
+            ]
+        },
+
+        "7-0": {
+            "title": "Streaming",
+            "description": "¿Va a transmitir contenido en tiempo real?, ¿audio o video?",
+            "hasActions": false,
+            "section": "streaming",
+            "options": [{
+                    "answer": "No",
+                    "goto": "8-0",
+                    "action": "addParameter('streaming',false,0"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "8-0",
+                    "action": "addParameter('streaming',true,5000000"
+                }
+            ]
+        },
+
+        "8-0": {
+            "title": "Portafolio",
+            "description": "¿Comercializa o vende productos/servicios y necesita un portafolio para mostrarlos o venderlos?",
+            "hasActions": false,
+            "section": "portafolio",
+            "options": [{
+                    "answer": "No",
+                    "goto": "9-0",
+                    "action": "addParameter('portafolio',false,0"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "9-0",
+                    "action": "addParameter('portafolio',true,1700000"
+                }
+            ]
+        },
+        "9-0": {
+            "title": "Ventas",
+            "description": "¿Va a vender productos/servicios en línea?",
+            "hasActions": false,
+            "section": "ventas",
+            "endOfSection": "9-1",
+            "options": [{
+                    "answer": "No",
+                    "goto": "10-0",
+                    "action": "addParameter('ventas',false,0"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "9-1",
+                    "action": "addParameter('ventas',true,1800000"
+                }
+            ]
+        },
+        "9-1": {
+            "title": "Internacional",
+            "description": "¿Va a vender los productos en el exterior?",
+            "hasActions": false,
+            "section": "internacional",
+            "options": [{
+                    "answer": "No",
+                    "goto": "10-0",
+                    "action": "addParameter('internacional',false,0"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "10-0",
+                    "action": "addParameter('internacional',true,1500000"
+                }
+            ]
+        },
+        "10-0": {
+            "title": "Administrador",
+            "description": "¿Necesita de alguna cuenta para cambiar algún contenido, gestionar o monitorear el aplicativo?",
+            "hasActions": false,
+            "endOfSection": "10-2",
+            "section": "cpanel",
+            "options": [{
+                    "answer": "No",
+                    "goto": "11-0",
+                    "action": "addParameter('cpanel',false,1"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "11-0",
+                    "action": "addParameter('cpanel',true,1.5"
+
+                }
+            ]
+        },
+        "10-1": {
+            "title": "Contenido",
+            "description": "Como administrador, ¿Va a subir contenido multimedia? ¿Imágenes, audio o video?",
+            "hasActions": false,
+            "section": "multimediaAdmin",
+            "options": [{
+                    "answer": "No",
+                    "goto": "10-2",
+                    "action": "addParameter('multimediaAdmin',false,0"
+                },
+                {
+                    "answer": "Sí, limitado",
+                    "goto": "10-2",
+                    "action": "addParameter('multimediaAdmin',true,800000"
+                },
+                {
+                    "answer": "Sí, ilimitado",
+                    "goto": "10-2",
+                    "action": "addParameter('multimediaAdmin',true,1500000"
+                }
+            ]
+        },
+        "10-2": {
+            "title": "Streaming",
+            "description": "Como administrador, ¿Va a transmitir contenido en tiempo real? ¿audio o video?",
+            "hasActions": false,
+            "section": "streamingAdmin",
+            "options": [{
+                    "answer": "No",
+                    "goto": "11-0",
+                    "action": "addParameter('streamingAdmin',false,0"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "11-0",
+                    "action": "addParameter('streamingAdmin',true,3000000"
+                }
+            ]
+        },
+        "11-0": {
+            "title": "Diseño",
+            "description": "¿Cuenta con un diseño de la interfaz grafica?",
+            "hasActions": false,
+            "endOfSection": "11-2",
+            "options": [{
+                    "answer": "No",
+                    "goto": "11-1"
+                },
+                {
+                    "answer": "Sí",
+                    "goto": "11-2"
+                }
+            ]
+        },
+        "11-1": {
+            "title": "Complejidad del diseño",
+            "description": "¿Cómo desea el diseño o la interfaz gráfica? También podemos replicar con base a otra aplicación o sitio de su agrado",
+            "hasActions": false,
+            "section": "interfaz",
+            "options": [{
+                    "answer": "Replica",
+                    "goto": "12-0",
+                    "action": "addParameter('interfaz',true,2200000"
+                },
+                {
+                    "answer": "Nuevo",
+                    "goto": "12-0",
+                    "action": "addParameter('interfaz',true,3000000"
+                }
+            ]
+        },
+        "11-2": {
+            "title": "Complejidad del diseño",
+            "description": "¿Cómo considera usted la complejidad del diseño que posee? Esto podría depender de animaciones, estructura y detalle etc.",
+            "hasActions": false,
+            "section": "interfaz",
+            "options": [{
+                    "answer": "Sencillo",
+                    "goto": "12-0",
+                    "action": "addParameter('interfaz',false,1000000"
+                },
+                {
+                    "answer": "Complejo",
+                    "goto": "12-0",
+                    "action": "addParameter('interfaz',true,3000000"
+                }
+            ]
+        },
+        "12-0": {
+            "title": "Secciones",
+            "description": "¿Cuántas páginas o secciones va a manejar la aplicación? (Páginas o secciones con diferente estructura o diseño)",
+            "hasActions": false,
+            "section": "secciones",
+            "endOfSection": "12-1",
+            "options": [{
+                    "answer": "No sé",
+                    "goto": "end0",
+                    "action": "addParameterAndCalculate('secciones',false,1.2"
+                },
+                {
+                    "answer": "máximo 5",
+                    "goto": "end0",
+                    "action": "addParameterAndCalculate('secciones',true,1"
+                },
+                {
+                    "answer": "máximo 12",
+                    "goto": "end0",
+                    "action": "addParameterAndCalculate('secciones',true,1.2"
+                },
+                {
+                    "answer": "Más de 12",
+                    "goto": "end0",
+                    "action": "addParameterAndCalculate('secciones',true,1.6"
+                }
+            ]
+        },
+        "12-1": {
+            "title": "Dinamismo",
+            "description": "¿Qué nivel de contenido dinámico tiene la aplicación (3 siendo totalmente dinámico)? Contenido dinámico es aquel que cambia con frecuencia (o por causa de eventos programados con anterioridad), es decir, no se va a mostrar siempre el mismo contenido durante mucho tiempo",
+            "hasActions": false,
+            "section": "dinamico",
+            "options": [{
+                    "answer": "No sé",
+                    "goto": "end0",
+                    "action": "addParameterAndCalculate('dinamico',false,1"
+                },
+                {
+                    "answer": "1",
+                    "goto": "end0",
+                    "action": "addParameterAndCalculate('dinamico',true,1"
+                },
+                {
+                    "answer": "2",
+                    "goto": "end0",
+                    "action": "addParameterAndCalculate('dinamico',true,1.2"
+                },
+                {
+                    "answer": "3",
+                    "goto": "end0",
+                    "action": "addParameterAndCalculate('dinamico',true,1.4"
+                }
+            ]
+        },
+        "end0": {
+            "title": "Ha Finalizado",
+            "description": "Según las respuetas seleccionadas, el costo de tu proyecto está entre <span id='cost1' class='cost'></span> y <span id='cost2' class='cost'></span>. Si desea que nos pongamos en contacto, teniendo en cuenta esta cotización o simplemente cuenta con alguna duda, dirígase al 'Siguiente' paso. <div>Feliz Día</div>",
+            "hasActions": false,
+            "options": [{
+                "answer": "Siguente",
+                "goto": "end1",
+                "action": "putTotalIn(null"
+            }]
+        },
+        "end1": {
+            "title": "Para terminar...",
+            "description": "Necesitamos sus datos básicos de contacto. Así podremos ponernos en contacto y brindar un servicio más personalizado.",
+            "options": [{
+                "answer": "Contactar",
+                "goto": "end2",
+                "action": "putTotalIn(null"
+            }]
+        },
+        "end2": {
+            "title": "Contactenos",
+            "description": " <div class='container-fluid contact-form'><div class='container'><form action='' id='contactForm'><div class='modal-body' style='padding-bottom:0'><div class='form-group'><input type='text' class='form-control' id='form-name' placeholder='Nombre *' required /></div><div class='form-group'><input type='email' class='form-control' id='form-email' placeholder='E-mail *' required /></div><div class='form-group'><input type='tel' class='form-control' id='form-phone' placeholder='Número telefónico' required /></div><div class='form-group'><textarea class='form-control'  id='form-message' placeholder='Mensaje' rows='3' ></textarea></div></div></form><button type='button' class='btn-rs' id='btnContactFormQ'  onclick='loadCaptcha()'><span class='circle' aria-hidden='true'><span class='icon arrow'></span><img src='img/loading2.gif' alt='' class='gif' id='loading-gif' /><img src='img/check2.png' alt='' class='gif' id='success-icon' /></span><span class='button-text'>Enviar</span></button></div></div>",
+            "options": []
+        }
+
+    }
+}
