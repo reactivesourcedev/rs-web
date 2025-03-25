@@ -23,6 +23,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"reveal.js": "^5.2.0",
 		"svelte-i18n": "^4.0.1"
 	}
 }
