@@ -5,6 +5,7 @@
 
 	import Header from "$lib/components/Header.svelte";
 	import Experience from "$lib/components/Experience.svelte";
+	import LatestWork from "$lib/components/LatestWork.svelte";
 	import Quote from "$lib/components/Quote.svelte";
 	import ScrollToTopButton from "$lib/components/ScrollToTopButton.svelte";
 	import Services from "$lib/components/Services.svelte";
@@ -35,21 +36,14 @@
 </svelte:head>
 
 <Header language="{language}"/>
-
 <Banner />
-
 <SoftwareDesign />
-
 <Services />
-
-<Quote language="{language}"/>
-
+<!-- <Quote language="{language}"/> -->
 <Experience />
-
+<LatestWork />
 <Contact />
-
 <Footer language="{language}" />
-
 <ScrollToTopButton />
 
 <style>

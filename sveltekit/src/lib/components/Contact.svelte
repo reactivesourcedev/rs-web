@@ -354,4 +354,23 @@
     .contact-form button:hover .button-text {
         color: #121212;
     }
+
+    .contact {
+        height: 50vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact button, .rating button {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        outline: none;
+        border: 0;
+        vertical-align: middle;
+        text-decoration: none;
+        background: transparent;
+        padding: 0;
+    }
 </style>

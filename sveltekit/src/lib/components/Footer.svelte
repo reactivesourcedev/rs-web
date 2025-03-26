@@ -57,8 +57,67 @@
     </div>
 </div>
 
-<!-- <style>
-    .mayus {
-        text-transform: uppercase;
+<style>
+    .footer {
+        background-color: #121212;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
-</style> -->
+
+    .footer img { margin-bottom: 15px; }
+
+    .footer .info { margin-bottom: 50px; }
+
+    .footer .info p {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 1.3em;
+    }
+
+    .footer ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer ul li {
+        list-style: none;
+    }
+
+    .footer ul li a i {
+        font-size: 30px;
+        margin: 10px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .footer ul li a i:hover {
+        color: #23A6D5;
+        transition: all .4s ease-in-out;
+    }
+
+    .footer .social .item-1, .footer .social .item-2 {
+        margin-right: 15px;
+    }
+
+    .footer .privacy .item-1, .footer .privacy .item-2 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .footer .privacy .item-1 {
+        border-right: 1px solid #fff;
+    }
+
+    .footer .copyright p, .footer .privacy ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .footer .copyright p span {
+        font-weight: 600;
+    }    
+</style> 

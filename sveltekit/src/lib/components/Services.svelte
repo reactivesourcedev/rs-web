@@ -84,4 +84,55 @@
 </div>
 
 <style>
+    .services {
+        text-align: center;
+        background-color: #fff;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .services h1 {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 1.3em;
+        color: #00233f;
+        margin-bottom: 15px;
+    }
+
+    .services h6 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.3em;
+        color: #00233f;
+        margin-bottom: 30px;
+    }
+
+    .services p {
+        font-size: 21px;
+        font-weight: 400;
+        color: #000;
+    }
+
+    .services .desc {
+        margin-bottom: 25px;
+    }
+
+    .services img {
+        width: 40vh !important;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+    }
+
+    .services a {
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease; 
+    }
+
+    .services a, .services a:hover {
+        text-decoration: none !important; 
+    }
 </style>

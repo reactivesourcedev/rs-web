@@ -52,28 +52,40 @@
 </div>
 
 <style>
-    /*
-    .modal-header {
-        border-bottom: 0px !important;
-        padding: 0 30px 0 30px;
-    }
-    */
-    
-    /*iframe {
-        width: calc(100% - 4px);
-        height: calc(100vh - 8px);
-        border: 0px;
-    }*/
-
     .modal-content {
         background-color: #121212;
     }
-    /*
-    .modal-content .close {
-        color: #fff;
-        opacity: 1;
-        font-size: 68px;
-        font-weight: 100;
+
+    .rating { 
+        background-color: #121212;
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center; 
     }
-    */
+
+    .rating img {
+        width: 40vh;
+    }
+
+    .rating i {
+        font-size: 100px;
+        margin-bottom: 15px;
+    }
+
+    .rating p { 
+        margin-bottom: 15px; 
+        font-size: 21px;
+        font-weight: 300;
+    }
+
+    .rating h1 { 
+        font-size: 48px;
+        line-height: 1.3em;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
 </style>

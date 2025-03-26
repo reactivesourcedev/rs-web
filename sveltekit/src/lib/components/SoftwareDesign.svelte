@@ -135,6 +135,46 @@
     z-index: 0;
   }
 
+  .ideas {
+      background-color: #121212;
+      /*min-height: 90vh;*/
+      display: flex;
+      align-items: center;
+      padding-top: 100px;
+      padding-bottom: 100px;
+  }
+
+  .ideas img { 
+      max-width: 561px; 
+      width: 90%;
+  }
+
+  .ideas h1, .contact h1 { 
+      font-size: 48px;
+      line-height: 1.3em;
+      font-weight: 600;
+      margin-bottom: 15px;
+  }
+
+  .ideas h6 {
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.3em;
+      margin-bottom: 30px;
+  }
+
+  .ideas p {
+      font-size: 21px;
+      font-weight: 300;
+  }
+
+  .ideas .design-info { 
+      display: table-cell; 
+      vertical-align: middle; 
+  }
+
+  .ideas .i-col-second { text-align: center; }
+
   @keyframes floatin-center {
     0% {
       top: 49%;
