@@ -40,7 +40,7 @@
 <div class="main-menu container-fluid p-0">
     <nav class="navbar navbar-expand-lg p-0" id="top">
         <!-- svelte-ignore a11y-missing-attribute -->
-        <a class="navbar-brand"  href="https://reactivesource.com">reactive_source ><span class="cmd">_</span></a>
+        <a class="navbar-brand"  href="/">reactive_source ><span class="cmd">_</span></a>
         <button
             class="navbar-toggler"
             type="button"
@@ -55,15 +55,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link underline" href="#services">Servicios</a>
+                    <a class="nav-link underline" href="/experience">Servicios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link underline" href="#expertise"
+                    <a class="nav-link underline" href="/experience"
                         >Experiencia</a
                     >
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link underline" href="#contact">Contacto</a>
+                    <a class="nav-link underline" href="/experience">Contacto</a>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link underline mayus" href="/{toLanguage}">{toLanguage}</a>

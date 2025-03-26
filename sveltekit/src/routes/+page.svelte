@@ -1,15 +1,11 @@
 <script>
 	import Banner from "$lib/components/Banner.svelte";
-	import Contact from "$lib/components/Contact.svelte";
-	import Footer from "$lib/components/Footer.svelte";
-
-	import Header from "$lib/components/Header.svelte";
-	import Experience from "$lib/components/Experience.svelte";
-	import LatestWork from "$lib/components/LatestWork.svelte";
-	import Quote from "$lib/components/Quote.svelte";
-	import ScrollToTopButton from "$lib/components/ScrollToTopButton.svelte";
 	import Services from "$lib/components/Services.svelte";
 	import SoftwareDesign from "$lib/components/SoftwareDesign.svelte";
+	import Quote from "$lib/components/Quote.svelte";
+	import Experience from "$lib/components/Experience.svelte";
+	import LatestWork from "$lib/components/LatestWork.svelte";
+	import Contact from "$lib/components/Contact.svelte";
     
 	import { setupI18n } from '$lib/services/i18n';
 
@@ -35,7 +31,7 @@
 	<meta name="description" content="Desarrollo Personalizado y Multiplataforma, Desarrollamos aplicaciones web, móviles y de escritorio. Construimos y desplegamos software en diferentes plataformas tecnológicas y sistemas operativos. Estamos ubicados en Cali, Colombia." />
 </svelte:head>
 
-<Header language="{language}"/>
+
 <Banner />
 <SoftwareDesign />
 <Services />
@@ -43,8 +39,7 @@
 <Experience />
 <LatestWork />
 <Contact />
-<Footer language="{language}" />
-<ScrollToTopButton />
+
 
 <style>
 
