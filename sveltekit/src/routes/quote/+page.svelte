@@ -62,7 +62,6 @@
 				}					
 			});*/	
 
-			console.log('questions json: ');
 			console.log(questions);
 
 			jsonLoaded(questions);
@@ -75,6 +74,7 @@
 			console.log("jsonLoaded");
 
 			//options = JSON.parse(data).options;
+			options = data.options;
 
 			globalThis.$.each(options, function(k, v) {
 				/*v.options.forEach(function(ans){
@@ -91,6 +91,7 @@
 					elements += "</section>";
 				} else if (inSection == -1) totalPages++;
 			});
+
 			globalThis.$(".slides").html(elements);
 
 			Reveal.initialize({ controls: false, touch: false, progress: false, keyboard: false, minScale: 0.35, maxScale: 1 });
@@ -124,7 +125,7 @@
 		navigation.push(dest);
 		var sectioned = dest.split("-");
 		var answers = "";
-		page = (sectioned[0] == "end0") ? totalPages - 2 : sectioned[0];
+		let page = (sectioned[0] == "end0") ? totalPages - 2 : sectioned[0];
 		page = (sectioned[0] == "end1") ? totalPages - 1 : page;
 		Reveal.slide((page == "end2") ? totalPages : page, (sectioned.length == 2) ? parseInt(sectioned[1]) : 0, 0);
 

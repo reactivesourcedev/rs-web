@@ -76,5 +76,10 @@ export default {
     "footer": {
       "privacy": "Política de Privacidad",
       "rights": "Todos los derechos reservados."
+    },
+
+    'button': {
+      'get_in_touch': 'Contactar',
+      'begin': 'Empezar'
     }
 }
