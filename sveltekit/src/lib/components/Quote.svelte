@@ -36,7 +36,8 @@
             <p>
                 Estime el costo de desarrollo mediante una serie de sencillas preguntas.
             </p>
-            <a href="/quote">
+
+            <!-- <a href="/quote">
                 <button
                     type="button"
                     class="btn-rs"                    
@@ -45,7 +46,7 @@
                     </span>
                     <span class="button-text">Cotizar</span>
                 </button>
-            </a>
+            </a> -->
             
         </div>
     </div>

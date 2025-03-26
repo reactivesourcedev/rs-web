@@ -109,7 +109,7 @@
         font-size: 48px;
         font-weight: 600;
         line-height: 1.3em;
-        /*color: #000;*/
+        /*color: #00233f;*/
         margin-bottom: 50px;
     }
 
@@ -117,13 +117,13 @@
         font-size: 28px;
         font-weight: 600;
         line-height: 1.3em;
-        color: #000;
+        color: #00233f;
         margin-bottom: 30px;
     }
 
     .expertise p {
         font-size: 21px;
         font-weight: 400;
-        color: #000;
+        color: #00233f;
     }
 </style>

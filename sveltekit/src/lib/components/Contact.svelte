@@ -249,8 +249,7 @@
                 ><span class="circle" aria-hidden="true">
                     <span class="icon arrow" />
                 </span>
-                <span class="button-text">Contactar</span></button
-            >
+                <span class="button-text">Contactar</span></button>
         </div>
     </div>
 </div>
