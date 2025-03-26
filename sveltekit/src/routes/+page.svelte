@@ -4,7 +4,7 @@
 	import Footer from "$lib/components/Footer.svelte";
 
 	import Header from "$lib/components/Header.svelte";
-	import Expertise from "$lib/components/Experience.svelte";
+	import Experience from "$lib/components/Experience.svelte";
 	import Quote from "$lib/components/Quote.svelte";
 	import ScrollToTopButton from "$lib/components/ScrollToTopButton.svelte";
 	import Services from "$lib/components/Services.svelte";
@@ -44,7 +44,7 @@
 
 <Quote language="{language}"/>
 
-<Expertise />
+<Experience />
 
 <Contact />
 

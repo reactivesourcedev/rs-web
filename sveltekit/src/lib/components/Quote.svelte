@@ -26,27 +26,6 @@
 </script>
 
 <div>
-    <div
-        class="modal fade"
-        id="quoteDialog"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-    >
-        <div class="modal-dialog modal-fullscreen" role="document">
-            <div class="modal-content">
-                <div>
-                    <!-- <iframe
-                        id="quoteIframe"
-                        title="Inline Frame Example"
-                        src="https://cotizador-f662e.web.app/{language}?showClose=1"
-                    /> -->
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="container-fluid rating" id="rating">
         <div class="container   animation-element slide-bottom">
             <img
@@ -57,16 +36,17 @@
             <p>
                 Estime el costo de desarrollo mediante una serie de sencillas preguntas.
             </p>
-            <button
-                type="button"
-                class="btn-rs"
-                data-toggle="modal"
-                data-target="#quoteDialog"
-                ><span class="circle" aria-hidden="true">
-                    <span class="icon arrow" />
-                </span>
-                <span class="button-text">Cotizar</span></button
-            >
+            <a href="/quote">
+                <button
+                    type="button"
+                    class="btn-rs"                    
+                    ><span class="circle" aria-hidden="true">
+                        <span class="icon arrow" />
+                    </span>
+                    <span class="button-text">Cotizar</span>
+                </button>
+            </a>
+            
         </div>
     </div>
 </div>

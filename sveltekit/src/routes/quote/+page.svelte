@@ -135,6 +135,7 @@
 		delete resumen[options[dest].section];
 		options[dest].options.forEach(function(ans) {
 			//console.log(ans);
+			//onclick={() => back()}
 			if (ans.action) {
 				//if (ans.goto == "none"){
 				if (ans.goto == "none")
