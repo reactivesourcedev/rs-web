@@ -241,7 +241,7 @@ body.modal-open {
     outline: none; 
 }
   
-blockquote.service-item {
+.service-item {
     max-width: 799px;
     margin: 0 auto;
 }

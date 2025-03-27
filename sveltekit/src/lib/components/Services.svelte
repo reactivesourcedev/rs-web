@@ -37,7 +37,7 @@
         <div class="content">
             <div class="container">
                 <div class="owl-carousel owl-1">
-                    <blockquote class="service-item">
+                    <div class="service-item">
                         <img
                             src={Web}
                             alt="Desarrollo de páginas webs y portales Cali Colombia"
@@ -46,8 +46,8 @@
                         <p>
                             Desde una página web informativa hasta un portal web robusto especializado. Contamos con el personal experto para  diseñar y desarrollar todo tipo de aplicativos web con las tecnologías más recientes, ofreciendo aspectos visuales modernos y adaptativos a cualquier tipo de dispositivo.
                         </p>
-                    </blockquote>
-                    <blockquote class="service-item">
+                    </div>
+                    <div class="service-item">
                         <img
                             src={Mobile}
                             alt="Desarrollo de aplicaciones móviles Cali Colombia"
@@ -56,8 +56,8 @@
                         <p>
                             Ofrecemos servicios de desarrollo para entornos móviles, entornos web y de escritorio, brindando soluciones basadas en tecnologías nativas e híbridas, lo que nos permite satisfacer las necesidades del cliente y del mercado con aplicaciones de alta calidad y escalabilidad.
                         </p>
-                    </blockquote>
-                    <blockquote class="service-item">
+                    </div>
+                    <div class="service-item">
                         <img
                             src={AugmentedReality}
                             alt="Desarrollo de videojuegos, aplicaciones de realidad aumentada y contenido multimedia Cali Colombia"
@@ -66,8 +66,8 @@
                         <p>
                             Contamos con un equipo experto para desarrollar todas aquellas ideas creativas y proyectos multimedia, que generen impacto y brindan experiencias únicas. Contamos con el conocimiento necesario para desarrollar videojuegos, apps AR, diseño, animación y modelado 2D/3D, recorridos virtuales programables y soluciones funcionales para audio y sonido.
                         </p>
-                    </blockquote>
-                    <blockquote class="service-item">
+                    </div>
+                    <div class="service-item">
                         <img
                             src={Modules}
                             alt="Desarrollo de microservicios, despliegue de infraestructura y bases de datos Cali Colombia"
@@ -76,7 +76,7 @@
                         <p>
                             Los microservicios, servicios de computación en la nube, diseño y despliegue de estructura aislada de bases de datos, alojamientos web y de aplicaciones, son un conjunto más de soluciones modulares que ponemos a disposición de nuestros clientes, para atender las diferentes necesidades en integración de software.
                         </p>
-                    </blockquote>
+                    </div>
                 </div>
             </div>
         </div>
@@ -87,8 +87,8 @@
     .services {
         text-align: center;
         background-color: #fff;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 150px;
+        padding-bottom: 150px;
     }
 
     .services h1 {

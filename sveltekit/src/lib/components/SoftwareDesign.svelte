@@ -140,8 +140,8 @@
       /*min-height: 90vh;*/
       display: flex;
       align-items: center;
-      padding-top: 100px;
-      padding-bottom: 100px;
+      padding-top: 150px;
+      padding-bottom: 150px;
   }
 
   .ideas img { 

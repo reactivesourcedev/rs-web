@@ -73,8 +73,8 @@
         display: flex;
         text-align: center;
         background-color: #121212;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 150px;
+        padding-bottom: 150px;
     }
 
     .expertise .card-top {

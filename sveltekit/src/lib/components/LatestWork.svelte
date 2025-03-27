@@ -76,7 +76,7 @@
         display: flex;
         text-align: center;
         background-color: #fff;
-        padding-top: 100px;
+        padding-top: 150px;
         padding-bottom: 100px;
     }
 

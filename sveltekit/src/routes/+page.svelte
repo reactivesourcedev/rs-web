@@ -5,6 +5,7 @@
 	import Quote from "$lib/components/Quote.svelte";
 	import Experience from "$lib/components/Experience.svelte";
 	import LatestWork from "$lib/components/LatestWork.svelte";
+    import Clients from "$lib/components/Clients.svelte";
 	import Contact from "$lib/components/Contact.svelte";
     
 	import { setupI18n } from '$lib/services/i18n';
@@ -38,6 +39,7 @@
 <!-- <Quote language="{language}"/> -->
 <Experience />
 <LatestWork />
+<Clients />
 <Contact />
 
 
