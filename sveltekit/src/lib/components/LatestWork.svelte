@@ -8,15 +8,10 @@
 
 <div class="container-fluid expertise img-fluid" id="expertise">
     <div class="container">
-        <h1>Últimos Trabajos</h1>
+        <h1 class="animation-element slide-left">Últimos Trabajos</h1>
         <div class="row">
             <div class="col animation-element slide-top">
-                <div class="card mb-3 card-top">
-                    <img
-                        src={Architecture}
-                        class="card-img-top"
-                        alt="Servicios de Computación en la nube"
-                    />
+                <div class="card mb-3 card-bottom">
                     <div class="card-body">
                         <h6 class="card-title">
                             Computación<br />
@@ -29,10 +24,15 @@
                         <a href="/experience" class="btn btn-primary stretched-link know-more"></a>
 
                     </div>
+                    <img
+                        src={Architecture}
+                        class="card-img-bottom"
+                        alt="Servicios de Computación en la nube"
+                    />                    
                 </div>
             </div>
-            <div class="col animation-element slide-bottom">
-                <div class="card mb-3 card-bottom">
+            <div class="col animation-element slide-top">
+                <div class="card mb-3 card-bottom">                                    
                     <div class="card-body">
                         <h6 class="card-title">
                             Desarrollo<br />
@@ -41,21 +41,16 @@
                         <p class="card-text">
                             Planificamos todo el desarrollo del software con metodologias que se adaptan a las necesidades y tiempos del cliente.
                         </p>
-                    </div>
+                    </div>  
                     <img
                         src={Agile}
                         class="card-img-bottom"
                         alt="Desarrollo ágil y seguro"
-                    />
+                    />                      
                 </div>
             </div>
             <div class="col animation-element slide-top">
-                <div class="card mb-3 card-top">
-                    <img
-                        src={FullStack}
-                        class="card-img-top"
-                        alt="Desarrollo full-stack"
-                    />
+                <div class="card mb-3 card-bottom">                    
                     <div class="card-body">
                         <h6 class="card-title">
                             Desarrollo<br />
@@ -65,6 +60,70 @@
                             Implementamos los aplicativos de inicio a fin. Bases de datos, logica de negocio, interfaz gráfica y despliegue en producción.
                         </p>    
                     </div>
+                    <img
+                        src={FullStack}
+                        class="card-img-bottom"
+                        alt="Desarrollo full-stack"
+                    />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col animation-element slide-bottom">
+                <div class="card mb-3 card-bottom">
+                    <div class="card-body">
+                        <h6 class="card-title">
+                            Computación<br />
+                            en la nube
+                        </h6>
+                        <p class="card-text">
+                            Tenemos experiencia en el uso de servicios como Google Cloud, AWS y Firebase. Para despliegue de aplicaciones completas o microservicios.
+                        </p>
+
+                        <a href="/experience" class="btn btn-primary stretched-link know-more"></a>
+
+                    </div>
+                    <img
+                        src={Architecture}
+                        class="card-img-bottom"
+                        alt="Servicios de Computación en la nube"
+                    />                    
+                </div>
+            </div>
+            <div class="col animation-element slide-bottom">
+                <div class="card mb-3 card-bottom">                                       
+                    <div class="card-body">
+                        <h6 class="card-title">
+                            Desarrollo<br />
+                            Ágil
+                        </h6>
+                        <p class="card-text">
+                            Planificamos todo el desarrollo del software con metodologias que se adaptan a las necesidades y tiempos del cliente.
+                        </p>
+                    </div> 
+                    <img
+                        src={Agile}
+                        class="card-img-bottom"
+                        alt="Desarrollo ágil y seguro"
+                    />                    
+                </div>
+            </div>
+            <div class="col animation-element slide-bottom">
+                <div class="card mb-3 card-bottom">                    
+                    <div class="card-body">
+                        <h6 class="card-title">
+                            Desarrollo<br />
+                            Full-Stack
+                        </h6>
+                        <p class="card-text">
+                            Implementamos los aplicativos de inicio a fin. Bases de datos, logica de negocio, interfaz gráfica y despliegue en producción.
+                        </p>    
+                    </div>
+                    <img
+                        src={FullStack}
+                        class="card-img-bottom"
+                        alt="Desarrollo full-stack"
+                    />
                 </div>
             </div>
         </div>

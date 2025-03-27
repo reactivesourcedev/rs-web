@@ -8,7 +8,7 @@
 
 <div class="container-fluid expertise img-fluid" id="expertise">
     <div class="container">
-        <h1>Habilidades y Experiencia</h1>
+        <h1 class="animation-element slide-left">Habilidades y Experiencia</h1>
         <div class="row">
             <div class="col animation-element slide-top">
                 <div class="card mb-3 card-top">
