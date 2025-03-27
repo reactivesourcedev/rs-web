@@ -16,10 +16,8 @@
         />
         <div class="info">
             <p>Reactive Source S.A.S.</p>
-            <a href="https://wa.me/573216242943" target="_blank" style="text-decoration:none">
-                <p><i class="fab fa-whatsapp"></i> +57 321 6242943</p>
-            </a>
-            <p>contact@reactivesource.com</p>
+            <p><a href="https://wa.me/573216242943" target="_blank" style="text-decoration:none"><i class="fab fa-whatsapp"></i> +57 321 6242943</a></p>            
+            <p><a href="mailto:contact@reactivesource.com" style="text-decoration:none">contact@reactivesource.com</a></p>
             <p>Cali, Colombia</p>
         </div>
         <div class="social">
