@@ -4,6 +4,8 @@
     import Agile from '$lib/images/freekpik-fullvector-agile.jpg';
     import FullStack from '$lib/images/freekpik-fullvector-full-stack.jpg';
 
+    import Quote from "$lib/components/Quote.svelte";
+
 </script>
 
 <svelte:head>
@@ -72,6 +74,8 @@
         </div>
     </div>
 </div>
+
+<Quote language="{'es'}"/>
 
 <style>
     .expertise {

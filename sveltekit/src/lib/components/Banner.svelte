@@ -11,7 +11,7 @@
             alt="Diseño y Desarrollo de Software y Apps Cali Colombia"
         />
         <div class="text">            
-            <div class="content">Desarrollo de software</div>
+            <div class="content">Desarrollo de Software</div>
             <div class="dash" />
         </div>
         <h6 class="copy">
