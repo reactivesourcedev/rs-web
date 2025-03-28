@@ -3,9 +3,9 @@
     import Kidvy from '$lib/images/work/trabajo-kidvy-reactive-source-desarrollo-aplicaciones-moviles-web-apps.jpg';
     import Curaduria from '$lib/images/work/trabajo-curaduria-reactive-source-desarrollo-aplicaciones-moviles-web-apps.jpg';
     import Taximillas from '$lib/images/work/trabajo-taximillas-reactive-source-desarrollo-aplicaciones-moviles-web-apps.jpg';
-
-    import Agile from '$lib/images/freekpik-fullvector-agile.jpg';
-    import FullStack from '$lib/images/freekpik-fullvector-full-stack.jpg';
+    import Quorum from '$lib/images/work/trabajo-quorum-reactive-source-desarrollo-aplicaciones-moviles-web-apps.jpg';
+    import Sigal from '$lib/images/work/trabajo-sigal-reactive-source-desarrollo-aplicaciones-moviles-web-apps.jpg';
+    import MatterOfListen from '$lib/images/work/trabajo-matter-of-listen-reactive-source-desarrollo-aplicaciones-moviles-web-apps.jpg';
 
 </script>
 
@@ -82,16 +82,13 @@
                         </h6>
                         <a href="/experience" class="btn btn-primary stretched-link know-more"></a>
                         <p class="card-text">
-                            Tenemos experiencia en el uso de servicios como Google Cloud, AWS y Firebase. Para despliegue de aplicaciones completas o microservicios.
+                            App para asambleas, votaciones online en tiempo real, votación electrónica de asambleas con resultados confiables y precisos.
                         </p>
-
-                        <a href="/experience" class="btn btn-primary stretched-link know-more"></a>
-
                     </div>
                     <img
-                        src={FullStack}
+                        src={Quorum}
                         class="card-img-bottom"
-                        alt="Servicios de Computación en la nube"
+                        alt="trabajo quorum reactive source desarrollo aplicaciones moviles web apps"
                     />                    
                 </div>
             </div>
@@ -99,17 +96,17 @@
                 <div class="card mb-3 card-bottom">                                       
                     <div class="card-body">
                         <h6 class="card-title">
-                            Sigal
+                            Sigal WMS
                         </h6>
                         <a href="/experience" class="btn btn-primary stretched-link know-more"></a>
                         <p class="card-text">
-                            Planificamos todo el desarrollo del software con metodologias que se adaptan a las necesidades y tiempos del cliente.
+                            A Warehouse Management System (WMS). Software que ayuda a gestionar su inventario, pedidos y cadena de suministro. 
                         </p>
                     </div> 
                     <img
-                        src={Agile}
+                        src={Sigal}
                         class="card-img-bottom"
-                        alt="Desarrollo ágil y seguro"
+                        alt="trabajo sigal reactive source desarrollo aplicaciones moviles web apps"
                     />                    
                 </div>
             </div>
@@ -125,9 +122,9 @@
                         </p>    
                     </div>
                     <img
-                        src={FullStack}
+                        src={MatterOfListen}
                         class="card-img-bottom"
-                        alt="Desarrollo full-stack"
+                        alt="trabajo matter of listen reactive source desarrollo aplicaciones moviles web apps"
                     />
                 </div>
             </div>
