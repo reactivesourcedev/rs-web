@@ -72,7 +72,7 @@
     .expertise {
         display: flex;
         text-align: center;
-        background-color: #121212;
+        background-color: #fff;
         padding-top: 150px;
         padding-bottom: 150px;
     }
@@ -109,7 +109,7 @@
         font-size: 48px;
         font-weight: 600;
         line-height: 1.3em;
-        /*color: #00233f;*/
+        color: #00233f;
         margin-bottom: 50px;
     }
 

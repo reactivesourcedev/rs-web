@@ -86,7 +86,7 @@
 <style>
     .services {
         text-align: center;
-        background-color: #fff;
+        background-color: #121212;
         padding-top: 150px;
         padding-bottom: 150px;
     }
@@ -95,7 +95,6 @@
         font-size: 48px;
         font-weight: 600;
         line-height: 1.3em;
-        color: #00233f;
         margin-bottom: 15px;
     }
 
@@ -103,14 +102,12 @@
         font-size: 28px;
         font-weight: 600;
         line-height: 1.3em;
-        color: #00233f;
         margin-bottom: 30px;
     }
 
     .services p {
         font-size: 21px;
         font-weight: 400;
-        color: #000;
     }
 
     .services .desc {

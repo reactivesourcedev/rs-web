@@ -31,6 +31,13 @@
         align-items: center;
     }
 
+    .contact h1 { 
+      font-size: 44px;
+      /*line-height: 1.3em;*/
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
     .contact button, .rating button {
         position: relative;
         display: inline-block;

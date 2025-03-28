@@ -91,7 +91,7 @@
         text-align: center;
         background-color: #fff;
         padding-top: 0px;
-        padding-bottom: 100px;
+        padding-bottom: 0px;
     }
 
     .clients h6 {

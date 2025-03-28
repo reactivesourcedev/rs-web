@@ -36,10 +36,10 @@
 <Banner />
 <SoftwareDesign />
 <Services />
-<!-- <Quote language="{language}"/> -->
-<Experience />
 <LatestWork />
 <Clients />
+<!-- <Quote language="{language}"/> -->
+<Experience />
 <Contact />
 
 

@@ -136,8 +136,8 @@
   }
 
   .ideas {
-      background-color: #121212;
-      /*min-height: 90vh;*/
+      background-color: #fff;
+    /*min-height: 90vh;*/
       display: flex;
       align-items: center;
       padding-top: 150px;
@@ -149,11 +149,12 @@
       width: 90%;
   }
 
-  .ideas h1, .contact h1 { 
+  .ideas h1 { 
       font-size: 48px;
       line-height: 1.3em;
       font-weight: 600;
       margin-bottom: 15px;
+      color: #00233f;
   }
 
   .ideas h6 {
@@ -161,11 +162,13 @@
       font-weight: 600;
       line-height: 1.3em;
       margin-bottom: 30px;
+      color: #00233f;
   }
 
   .ideas p {
       font-size: 21px;
       font-weight: 300;
+      color: #00233f;
   }
 
   .ideas .design-info { 
