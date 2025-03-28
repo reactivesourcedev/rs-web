@@ -57,6 +57,7 @@
                         <h6 class="card-title">
                             Taxi Millas
                         </h6>
+                        <br>
                         <a href="/experience" class="btn btn-primary stretched-link know-more"></a>
                         <p class="card-text">
                             La mejor app para perdir tu taxi. Viaja seguro, acumula millas y redime viajes gratis.
@@ -70,13 +71,14 @@
                 </div>
             </div>
         </div>
+        <br>
+        <br>
         <div class="row">
             <div class="col animation-element slide-bottom">
                 <div class="card mb-3 card-bottom">
                     <div class="card-body">
                         <h6 class="card-title">
-                            Computación<br />
-                            en la nube
+                            Quorum
                         </h6>
                         <a href="/experience" class="btn btn-primary stretched-link know-more"></a>
                         <p class="card-text">
@@ -97,8 +99,7 @@
                 <div class="card mb-3 card-bottom">                                       
                     <div class="card-body">
                         <h6 class="card-title">
-                            Desarrollo<br />
-                            Ágil
+                            Sigal
                         </h6>
                         <a href="/experience" class="btn btn-primary stretched-link know-more"></a>
                         <p class="card-text">
@@ -116,8 +117,7 @@
                 <div class="card mb-3 card-bottom">                    
                     <div class="card-body">
                         <h6 class="card-title">
-                            Desarrollo<br />
-                            Full-Stack
+                            Matter of Listen
                         </h6>
                         <a href="/experience" class="btn btn-primary stretched-link know-more"></a>
                         <p class="card-text">
@@ -151,10 +151,20 @@
         transition: all .2s linear;
         padding-bottom: 50px;
     }*/
+    .latest-work .card {
+        box-shadow: 0 5px 18px 0 rgb(12 0 46 / 8%);
+    }
+
+    .latest-work .card:hover {
+        transform: translate(0, -0.8em);
+        /*transform: scale(1.02);*/
+        box-shadow: 0 5px 18px 0 rgb(12 0 46 / 20%);
+    }
+
 
     .latest-work .card-bottom {
         border: none;
-        box-shadow: 0 5px 18px 0 rgb(12 0 46 / 8%);
+        /*box-shadow: 0 5px 18px 0 rgb(12 0 46 / 8%);*/
         border-radius: 45px;
         transition: all .2s linear;
         padding-top: 30px;
