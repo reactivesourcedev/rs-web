@@ -1,9 +1,9 @@
 <script>
     import { _ } from "$lib/services/i18n";
-    import Web from '$lib/images/freepik-pikisuperstar-web.png';
-    import Mobile from '$lib/images/freepik-upklyak-mobile.png';
-    import AugmentedReality from '$lib/images/freepik-pikisuperstar-ar.png';
-    import Modules from '$lib/images/freepik-fullvector-modules.png';
+    import Website from '$lib/images/services/servicio-desarrollo-sitios-páginas-web-websites-reactive-source.png';
+    import Apps from '$lib/images/services/servicio-desarrollo-aplicacion-móvil-app-reactive-source.png';
+    import Multimedia from '$lib/images/services/servicio-desarrollo-contenido-multimedia-reactive-source.png';
+    import Modular from '$lib/images/services/servicio-desarrollo-modular-reactive-source.png';
 
     import { onMount } from 'svelte';
 
@@ -17,7 +17,8 @@
                 smartSpeed: 1000,
                 autoplay: true,
                 autoplayHoverPause: true,
-                navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
+                navText: ['<i class="fas fa-chevron-left" style="color: #fff"></i>', 
+                          '<i class="fas fa-chevron-right" style="color: #fff"></i>']
             })
         })
     });
@@ -39,8 +40,9 @@
                 <div class="owl-carousel owl-1">
                     <div class="service-item">
                         <img
-                            src={Web}
-                            alt="Desarrollo de páginas webs y portales Cali Colombia"
+                            src={Website}
+                            title="servicio desarrollo sitios páginas web websites reactive source"
+                            alt="servicio desarrollo sitios páginas web websites reactive source"
                         />
                         <h1>Websites</h1>
                         <p>
@@ -49,8 +51,9 @@
                     </div>
                     <div class="service-item">
                         <img
-                            src={Mobile}
-                            alt="Desarrollo de aplicaciones móviles Cali Colombia"
+                            src={Apps}
+                            title="servicio desarrollo aplicacion móvil app reactive source"
+                            alt="servicio desarrollo aplicacion móvil app reactive source"
                         />
                         <h1>Apps</h1>
                         <p>
@@ -59,8 +62,9 @@
                     </div>
                     <div class="service-item">
                         <img
-                            src={AugmentedReality}
-                            alt="Desarrollo de videojuegos, aplicaciones de realidad aumentada y contenido multimedia Cali Colombia"
+                            src={Multimedia}
+                            title="servicio desarrollo contenido multimedia reactive source"
+                            alt="servicio desarrollo contenido multimedia reactive source"
                         />
                         <h1>Contenido Multimedia</h1>
                         <p>
@@ -69,8 +73,9 @@
                     </div>
                     <div class="service-item">
                         <img
-                            src={Modules}
-                            alt="Desarrollo de microservicios, despliegue de infraestructura y bases de datos Cali Colombia"
+                            src={Modular}
+                            title="servicio desarrollo modular reactive source"
+                            alt="servicio desarrollo modular reactive source"
                         />
                         <h1>Desarrollo Modular</h1>
                         <p>

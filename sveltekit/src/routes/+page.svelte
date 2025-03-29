@@ -4,7 +4,7 @@
 	import SoftwareDesign from "$lib/components/SoftwareDesign.svelte";
 	import Quote from "$lib/components/Quote.svelte";
 	import Experience from "$lib/components/Experience.svelte";
-	import LatestWork from "$lib/components/LatestWork.svelte";
+	import Projects from "$lib/components/Projects.svelte";
     import Clients from "$lib/components/Clients.svelte";
 	import Contact from "$lib/components/Contact.svelte";
     
@@ -28,15 +28,15 @@
 </script>
 
 <svelte:head>
-	<title>Reactive Source • Desarrollo de Software, Web y Aplicaciones Apps en Cali, Colombia</title>
-	<meta name="description" content="Desarrollo Personalizado y Multiplataforma, Desarrollamos aplicaciones web, móviles y de escritorio. Construimos y desplegamos software en diferentes plataformas tecnológicas y sistemas operativos. Estamos ubicados en Cali, Colombia." />
+	<title>Reactive Source • Desarrollo de aplicaciones móviles, apps, android, ios, web, programas, software a la medida en Cali, Colombia</title>
+	<meta name="description" content="Casa de Software en Cali, Colombia, aplicaciones móviles, web y de escritorio. Construimos y desplegamos software y programas informáticos en diferentes plataformas tecnológicas y sistemas operativos, windows. Estamos ubicados en Cali, Colombia." />
 </svelte:head>
 
 
 <Banner />
 <SoftwareDesign />
 <Services />
-<LatestWork />
+<Projects />
 <Clients />
 <!-- <Quote language="{language}"/> -->
 <Experience />

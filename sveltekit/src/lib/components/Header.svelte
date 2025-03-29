@@ -55,15 +55,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link underline" href="/experience">Servicios</a>
+                    <a class="nav-link underline" href="#services">Servicios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link underline" href="/experience"
-                        >Experiencia</a
-                    >
+                    <a class="nav-link underline" href="#projects">Proyectos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link underline" href="/experience">Contacto</a>
+                    <a class="nav-link underline" href="#contact">Contacto</a>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link underline mayus" href="/{toLanguage}">{toLanguage}</a>

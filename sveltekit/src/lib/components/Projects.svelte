@@ -1,17 +1,17 @@
 <script>
     import { _ } from "$lib/services/i18n";
-    import Kidvy from '$lib/images/work/trabajo-kidvy-reactive-source-desarrollo-aplicaciones-moviles-web-apps.jpg';
-    import Curaduria from '$lib/images/work/trabajo-curaduria-reactive-source-desarrollo-aplicaciones-moviles-web-apps.jpg';
-    import Taximillas from '$lib/images/work/trabajo-taximillas-reactive-source-desarrollo-aplicaciones-moviles-web-apps.jpg';
-    import Quorum from '$lib/images/work/trabajo-quorum-reactive-source-desarrollo-aplicaciones-moviles-web-apps.jpg';
-    import Sigal from '$lib/images/work/trabajo-sigal-reactive-source-desarrollo-aplicaciones-moviles-web-apps.jpg';
-    import MatterOfListen from '$lib/images/work/trabajo-matter-of-listen-reactive-source-desarrollo-aplicaciones-moviles-web-apps.jpg';
+    import Kidvy from '$lib/images/projects/proyecto-kidvy-app-aplicacion-móvil-reactive-source.jpg';
+    import Curaduria from '$lib/images/projects/proyecto-curaduria-web-reactive-source.jpg';
+    import Taximillas from '$lib/images/projects/proyecto-taximillas-app-aplicacion-móvil-web-reactive-source.jpg';
+    import Quorum from '$lib/images/projects/proyecto-quorum-app-aplicacion-móvil-reactive-source.jpg';
+    import Sigal from '$lib/images/projects/proyecto-sigal-wms-warehouse-management-system-web-reactive-source.jpg';
+    import MatterOfListen from '$lib/images/projects/proyecto-matter-of-listen-app-aplicacion-móvil-reactive-source.jpg';
 
 </script>
 
-<div class="container-fluid latest-work img-fluid">
+<div class="container-fluid projects img-fluid" id="projects">
     <div class="container">
-        <h1 class="animation-element slide-left">Últimos Trabajos</h1>
+        <h1 class="animation-element slide-left">Últimos Proyectos</h1>
         <div class="row">
             <div class="col animation-element slide-top">
                 <div class="card mb-3 card-bottom">
@@ -27,8 +27,9 @@
                     </div>
                     <img
                         src={Kidvy}
-                        class="card-img-bottom"
-                        alt="trabajo kidvy reactive source desarrollo aplicaciones moviles web apps"
+                        class="card-img-bottom"                        
+                        title="proyecto kidvy app aplicacion móvil reactive source"
+                        alt="proyecto kidvy app aplicacion móvil reactive source"
                     />                                       
                 </div>
             </div>
@@ -47,7 +48,8 @@
                     <img
                         src={Curaduria}
                         class="card-img-bottom"
-                        alt="trabajo curaduria reactive source desarrollo aplicaciones moviles web apps"
+                        title="proyecto curaduria web reactive source"
+                        alt="proyecto curaduria web reactive source"
                     />                      
                 </div>
             </div>
@@ -66,7 +68,8 @@
                     <img
                         src={Taximillas}
                         class="card-img-bottom"
-                        alt="trabajo taximillas reactive source desarrollo aplicaciones moviles web apps"
+                        title="proyecto taximillas app aplicacion móvil web reactive source"
+                        alt="proyecto taximillas app aplicacion móvil web reactive source"
                     />
                 </div>
             </div>
@@ -88,7 +91,8 @@
                     <img
                         src={Quorum}
                         class="card-img-bottom"
-                        alt="trabajo quorum reactive source desarrollo aplicaciones moviles web apps"
+                        title="proyecto quorum app aplicacion móvil reactive source"
+                        alt="proyecto quorum app aplicacion móvil reactive source"
                     />                    
                 </div>
             </div>
@@ -106,7 +110,8 @@
                     <img
                         src={Sigal}
                         class="card-img-bottom"
-                        alt="trabajo sigal reactive source desarrollo aplicaciones moviles web apps"
+                        title="proyecto sigal wms warehouse management system web reactive source"
+                        alt="proyecto sigal wms warehouse management system web reactive source"
                     />                    
                 </div>
             </div>
@@ -124,7 +129,8 @@
                     <img
                         src={MatterOfListen}
                         class="card-img-bottom"
-                        alt="trabajo matter of listen reactive source desarrollo aplicaciones moviles web apps"
+                        title="proyecto matter of listen app aplicacion móvil reactive source"
+                        alt="proyecto matter of listen app aplicacion móvil reactive source"
                     />
                 </div>
             </div>
@@ -133,7 +139,7 @@
 </div>
 
 <style>
-    .latest-work {
+    .projects {
         display: flex;
         text-align: center;
         background-color: #fff;
@@ -141,25 +147,25 @@
         padding-bottom: 100px;
     }
 
-    /*.latest-work .card-top {
+    /*.projects .card-top {
         border: none;
         box-shadow: 0 5px 18px 0 rgb(12 0 46 / 8%);
         border-radius: 45px;
         transition: all .2s linear;
         padding-bottom: 50px;
     }*/
-    .latest-work .card {
+    .projects .card {
         box-shadow: 0 5px 18px 0 rgb(12 0 46 / 8%);
     }
 
-    .latest-work .card:hover {
+    .projects .card:hover {
         transform: translate(0, -0.8em);
         /*transform: scale(1.02);*/
         box-shadow: 0 5px 18px 0 rgb(12 0 46 / 20%);
     }
 
 
-    .latest-work .card-bottom {
+    .projects .card-bottom {
         border: none;
         /*box-shadow: 0 5px 18px 0 rgb(12 0 46 / 8%);*/
         border-radius: 45px;
@@ -167,19 +173,19 @@
         padding-top: 30px;
     }
 
-    /*.latest-work .card-top img {
+    /*.projects .card-top img {
         border: none;
         border-top-left-radius: 45px;
         border-top-right-radius: 45px;
     }*/
 
-    .latest-work .card-bottom img {
+    .projects .card-bottom img {
         border: none;
         border-bottom-left-radius: 45px;
         border-bottom-right-radius: 45px;
     }
 
-    .latest-work h1 {
+    .projects h1 {
         font-size: 48px;
         font-weight: 600;
         line-height: 1.3em;
@@ -187,7 +193,7 @@
         margin-bottom: 50px;
     }
 
-    .latest-work h6 {
+    .projects h6 {
         font-size: 28px;
         font-weight: 600;
         line-height: 1.3em;
@@ -195,7 +201,7 @@
         margin-bottom: 0px;
     }
 
-    .latest-work p {
+    .projects p {
         font-size: 21px;
         font-weight: 400;
         color: #00233f;
