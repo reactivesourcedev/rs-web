@@ -1,10 +1,10 @@
 <script>
   import { _ } from "$lib/services/i18n";
   import { onMount } from "svelte";
-  import Central from '$lib/images/workteam/central.png';
-  import Left from '$lib/images/workteam/left.png';
-  import Right from '$lib/images/workteam/right.png';
-  import Shadow from '$lib/images/workteam/shadow.png';
+  import Central from '$lib/images/workteam/central-reactive-source-desarrollo-aplicaciones-moviles-web-apps.png';
+  import Left from '$lib/images/workteam/left-reactive-source-desarrollo-aplicaciones-moviles-web-apps.png';
+  import Right from '$lib/images/workteam/right-reactive-source-desarrollo-aplicaciones-moviles-web-apps.png';
+  import Shadow from '$lib/images/workteam/shadow-reactive-source-desarrollo-aplicaciones-moviles-web-apps.png';
 
 
   let wtContent;
@@ -36,37 +36,43 @@
         <img
           src={Central}
           class="img-fluid"
-          alt="Diseño y Desarrollo a la medida Cali Colombia"
+          title="central reactive source desarrollo aplicaciones moviles web apps"
+          alt="central reactive source desarrollo aplicaciones moviles web apps"
           id="wt-center"
         />
         <img
           src={Left}
           class="img-fluid"
-          alt="Diseño y Desarrollo a la medida Cali Colombia"
+          title="left reactive source desarrollo aplicaciones moviles web apps"
+          alt="left reactive source desarrollo aplicaciones moviles web apps"
           id="wt-left"
         />
         <img
           src={Right}
           class="img-fluid"
-          alt="Diseño y Desarrollo a la medida Cali Colombia"
+          title="right reactive source desarrollo aplicaciones moviles web apps"
+          alt="right reactive source desarrollo aplicaciones moviles web apps"
           id="wt-right"
         />
         <img
           src={Shadow}
           class="img-fluid"
-          alt="Diseño y Desarrollo a la medida Cali Colombia"
+          title="shadow reactive source desarrollo aplicaciones moviles web apps"
+          alt="shadow reactive source desarrollo aplicaciones moviles web apps"
           id="wt-shadow-center"
         />
         <img
           src={Shadow}
           class="img-fluid"
-          alt="Diseño y Desarrollo a la medida Cali Colombia"
+          title="shadow reactive source desarrollo aplicaciones moviles web apps"
+          alt="shadow reactive source desarrollo aplicaciones moviles web apps"
           id="wt-shadow-left"
         />
         <img
           src={Shadow}
           class="img-fluid"
-          alt="Diseño y Desarrollo a la medida Cali Colombia"
+          title="shadow reactive source desarrollo aplicaciones moviles web apps"
+          alt="shadow reactive source desarrollo aplicaciones moviles web apps"
           id="wt-shadow-right"
         />
       </div>

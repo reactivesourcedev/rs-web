@@ -1,7 +1,7 @@
 <script>
     import { onMount, onDestroy } from "svelte";
     import { _ } from "$lib/services/i18n";
-    import Budget from '$lib/images/freepik-fullvector-budget.png';
+    import Quote from '$lib/images/experiencia-cotizador-reactive-source.png';
 
     export let language;
 
@@ -29,8 +29,9 @@
     <div class="container-fluid rating" id="rating">
         <div class="container   animation-element slide-bottom">
             <img
-                src={Budget}
-                alt="Costo de desarrollo de software y apps"
+                src={Quote}
+                title="experiencia cotizador reactive source"
+                alt="experiencia cotizador reactive source"
             />
             <h1>¿Cuánto vale desarrollar mi producto?</h1>
             <p>
