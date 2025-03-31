@@ -1,14 +1,15 @@
 <script>
     import { _ } from "$lib/services/i18n";
-    import LogoMainRec from '$lib/images/logo_main_rec.png';
+    import LogoHeaderRS from '$lib/images/logo-header-reactive-source-desarrollo-aplicaciones-moviles-web-apps.png';
 </script>
 
 <div class="container-fluid main p-0">
     <div class="container">
         <img
-            src={LogoMainRec}
+            src={LogoHeaderRS}
             class="main-logo"
-            alt="Diseño y Desarrollo de Software y Apps Cali Colombia"
+            title="logo header reactive source desarrollo aplicaciones moviles web apps"
+            alt="logo header reactive source desarrollo aplicaciones moviles web apps"
         />
         <div class="text">            
             <div class="content">Desarrollo de Software</div>

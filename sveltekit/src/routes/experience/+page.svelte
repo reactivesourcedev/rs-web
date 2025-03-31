@@ -1,8 +1,8 @@
 <script>
     import { _ } from "$lib/services/i18n";
-    import Architecture from '$lib/images/freekpik-fullvector-architecture.jpg';
-    import Agile from '$lib/images/freekpik-fullvector-agile.jpg';
-    import FullStack from '$lib/images/freekpik-fullvector-full-stack.jpg';
+    import Cloud from '$lib/images/experience/experiencia-computacion-nube-reactive-source.jpg';
+    import Agile from '$lib/images/experience/experiencia-desarrollo-agil-reactive-source.jpg';
+    import FullStack from '$lib/images/experience/experiencia-desarrollo-full-stack-reactive-source.jpg';
 
     import Quote from "$lib/components/Quote.svelte";
 
@@ -20,7 +20,7 @@
             <div class="col animation-element slide-top">
                 <div class="card mb-3 card-top">
                     <img
-                        src={Architecture}
+                        src={Cloud}
                         class="card-img-top"
                         alt="Servicios de Computación en la nube"
                     />

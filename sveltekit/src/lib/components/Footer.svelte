@@ -1,6 +1,6 @@
 <script>
     import { _ } from "$lib/services/i18n";
-    import LogoMain from '$lib/images/logo_main.png';
+    import LogoFooterRS from '$lib/images/logo-footer-reactive-source-desarrollo-aplicaciones-moviles-web-apps.png';
     export let language;
 
     let toLanguage = language == "es" ? "en" : "es";
@@ -9,8 +9,9 @@
 <div class="footer container-fluid">
     <div class="container">
         <img
-            src={LogoMain}
-            alt="Diseño y Desarrollo de Software y Apps"
+            src={LogoFooterRS}
+            title="logo footer reactive source desarrollo aplicaciones moviles web apps"
+            alt="logo footer reactive source desarrollo aplicaciones moviles web apps"
             width="90"
             height="90"
         />

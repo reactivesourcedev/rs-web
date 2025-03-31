@@ -1,8 +1,8 @@
 <script>
     import { _ } from "$lib/services/i18n";
-    import Architecture from '$lib/images/freekpik-fullvector-architecture.jpg';
-    import Agile from '$lib/images/freekpik-fullvector-agile.jpg';
-    import FullStack from '$lib/images/freekpik-fullvector-full-stack.jpg';
+    import Cloud from '$lib/images/experience/experiencia-computacion-nube-reactive-source.jpg';
+    import Agile from '$lib/images/experience/experiencia-desarrollo-agil-reactive-source.jpg';
+    import FullStack from '$lib/images/experience/experiencia-desarrollo-full-stack-reactive-source.jpg';
 
 </script>
 
@@ -13,9 +13,10 @@
             <div class="col animation-element slide-top">
                 <div class="card mb-3 card-top">
                     <img
-                        src={Architecture}
+                        src={Cloud}
                         class="card-img-top"
-                        alt="Servicios de Computación en la nube"
+                        title="experiencia computacion nube reactive source"
+                        alt="experiencia computacion nube reactive source"
                     />
                     <div class="card-body">
                         <h6 class="card-title">
@@ -42,7 +43,8 @@
                     <img
                         src={Agile}
                         class="card-img-bottom"
-                        alt="Desarrollo ágil y seguro"
+                        title="experiencia desarrollo agil reactive source"
+                        alt="experiencia desarrollo agil reactive source"
                     />
                 </div>
             </div>
@@ -51,7 +53,8 @@
                     <img
                         src={FullStack}
                         class="card-img-top"
-                        alt="Desarrollo full-stack"
+                        title="experiencia desarrollo full stack reactive source"
+                        alt="experiencia desarrollo full stack reactive source"
                     />
                     <div class="card-body">
                         <h6 class="card-title">
