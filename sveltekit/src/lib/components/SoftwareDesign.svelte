@@ -1,10 +1,10 @@
 <script>
   import { _ } from "$lib/services/i18n";
   import { onMount } from "svelte";
-  import Central from '$lib/images/workteam/central-reactive-source-desarrollo-aplicaciones-moviles-web-apps.png';
-  import Left from '$lib/images/workteam/left-reactive-source-desarrollo-aplicaciones-moviles-web-apps.png';
-  import Right from '$lib/images/workteam/right-reactive-source-desarrollo-aplicaciones-moviles-web-apps.png';
-  import Shadow from '$lib/images/workteam/shadow-reactive-source-desarrollo-aplicaciones-moviles-web-apps.png';
+  import Central from '$lib/images/workteam/central-casa-software-reactive-source.png';
+  import Left from '$lib/images/workteam/left-casa-software-reactive-source.png';
+  import Right from '$lib/images/workteam/right-casa-software-reactive-source.png';
+  import Shadow from '$lib/images/workteam/shadow-casa-software-reactive-source.png';
 
 
   let wtContent;
@@ -36,43 +36,43 @@
         <img
           src={Central}
           class="img-fluid"
-          title="central reactive source desarrollo aplicaciones moviles web apps"
-          alt="central reactive source desarrollo aplicaciones moviles web apps"
+          title="central casa software reactive sources"
+          alt="central casa software reactive sources"
           id="wt-center"
         />
         <img
           src={Left}
           class="img-fluid"
-          title="left reactive source desarrollo aplicaciones moviles web apps"
-          alt="left reactive source desarrollo aplicaciones moviles web apps"
+          title="left casa software reactive sources"
+          alt="left casa software reactive sources"
           id="wt-left"
         />
         <img
           src={Right}
           class="img-fluid"
-          title="right reactive source desarrollo aplicaciones moviles web apps"
-          alt="right reactive source desarrollo aplicaciones moviles web apps"
+          title="right casa software reactive sources"
+          alt="right casa software reactive sources"
           id="wt-right"
         />
         <img
           src={Shadow}
           class="img-fluid"
-          title="shadow reactive source desarrollo aplicaciones moviles web apps"
-          alt="shadow reactive source desarrollo aplicaciones moviles web apps"
+          title="shadow casa software reactive sources"
+          alt="shadow casa software reactive sources"
           id="wt-shadow-center"
         />
         <img
           src={Shadow}
           class="img-fluid"
-          title="shadow reactive source desarrollo aplicaciones moviles web apps"
-          alt="shadow reactive source desarrollo aplicaciones moviles web apps"
+          title="shadow casa software reactive sources"
+          alt="shadow casa software reactive sources"
           id="wt-shadow-left"
         />
         <img
           src={Shadow}
           class="img-fluid"
-          title="shadow reactive source desarrollo aplicaciones moviles web apps"
-          alt="shadow reactive source desarrollo aplicaciones moviles web apps"
+          title="shadow casa software reactive sources"
+          alt="shadow casa software reactive sources"
           id="wt-shadow-right"
         />
       </div>
