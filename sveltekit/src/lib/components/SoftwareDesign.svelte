@@ -21,7 +21,7 @@
         class="col-xl-6 col-lg-6 col-md-12 i-col-first my-auto animation-element slide-left"
       >
         <div class="design-info ">
-          <h1>Diseño y Desarrollo a la Medida desde Colombia</h1>
+          <h1>Diseño y Desarrollo a la Medida desde Cali, Colombia</h1>
           <h6>Calidad Humana de Principio a Fin</h6>
           <p>
             Trabajamos de su lado para construir productos eficientes, seguros, escalables y de alto impacto. Combinamos la experiencia y la creatividad para transformar sus ideas en las bases fundamentales de un producto innovador.
