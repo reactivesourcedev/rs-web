@@ -28,7 +28,7 @@
 </script>
 
 <svelte:head>
-	<title>Reactive Source • Desarrollo de aplicaciones móviles, apps, android, ios, web, programas, software a la medida en Cali, Colombia</title>
+	<title>Reactive Source • Desarrollo de Aplicaciones Móviles, Web Apps, Android, iOS, Programas, Software a la Medida en Cali, Colombia</title>
 	<meta name="description" content="Casa de Software en Cali, Colombia, aplicaciones móviles, web y de escritorio. Construimos y desplegamos software y programas informáticos en diferentes plataformas tecnológicas y sistemas operativos, windows. Estamos ubicados en Cali, Colombia." />
 </svelte:head>
 

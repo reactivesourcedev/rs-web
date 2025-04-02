@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>Experiencia • Reactive Source • Desarrollo de Aplicaciones Móviles, Software y Web Apps en Cali, Colombia</title>
+	<title>Experiencia • Reactive Source • Desarrollo de Aplicaciones Móviles, Web Apps, Android, iOS, Programas, Software a la Medida en Cali, Colombia</title>
 	<meta name="description" content="Tenemos experiencia en el uso de servicios como Google Cloud, AWS y Firebase. Para despliegue de aplicaciones completas o microservicios. Planificamos todo el desarrollo del software con metodologias que se adaptan a las necesidades y tiempos del cliente. Implementamos los aplicativos de inicio a fin. Bases de datos, logica de negocio, interfaz gráfica y despliegue en producción." />
 </svelte:head>
 
