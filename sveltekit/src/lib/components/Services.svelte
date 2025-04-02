@@ -31,7 +31,7 @@
             <h1>Nuestros Servicios</h1>
             <h6>Desarrollo Personalizado y Multiplataforma</h6>
             <p>
-                Desarrollamos aplicaciones web, móviles y de escritorio. Construimos y desplegamos software en diferentes plataformas y sistemas operativos, sacando el mayor provecho de las diferentes tecnologías para construir productos que se adapten a su necesidad. Estamos ubicados en Cali, Colombia.
+                Desarrollo de Aplicaciones Móviles, Web Apps y Software. Construimos y desplegamos software en diferentes plataformas y sistemas operativos, sacando el mayor provecho de las diferentes tecnologías para construir productos que se adapten a su necesidad. Estamos ubicados en Cali, Colombia.
             </p>
         </div>
 
