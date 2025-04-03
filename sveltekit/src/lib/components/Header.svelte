@@ -61,7 +61,7 @@
                     <a class="nav-link underline" href="#projects">Proyectos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link underline" href="#contact">Contacto</a>
+                    <a class="nav-link underline" href="/contact">Contacto</a>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link underline mayus" href="/{toLanguage}">{toLanguage}</a>

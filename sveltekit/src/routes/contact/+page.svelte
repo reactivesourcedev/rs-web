@@ -21,6 +21,10 @@
         setcontactFormTokenVar = setcontactFormToken;
         btnFormClickedVar = btnFormClicked;
 
+        function tempSetcontactFormToken(){
+
+        }
+
         function setcontactFormToken(token) {
             btnFormClicked();
             contactFormToken = token;
@@ -146,21 +150,20 @@
     <div class="container-fluid contact" id="contact">
         <div class="container">
             <h1>Envianos tus datos, <br>y te contactamos pronto.</h1>
-
             <br>
-
             <div class="container-fluid contact-form">
                 <div class="container">
-                    <form action="" id="contactForm">
+
+                    <form method="POST" action="?/sendContactEmail" id="contactForm">
                         <div class="modal-body" style="padding-bottom:0">
                             <div class="form-group">
                                 <input
                                     type="text"
                                     class="form-control"
                                     id="form-name"
-                                    bind:value={name}
-                                    placeholder="Nombre *"
-                                    required
+                                    name="name"
+                                    placeholder="Nombre y Apellido *"
+                                    
                                 />
                             </div>
                             <div class="form-group">
@@ -168,32 +171,40 @@
                                     type="email"
                                     class="form-control"
                                     id="form-email"
-                                    bind:value={email}
-                                    placeholder="E-mail *"
-                                    required
+                                    name="email"
+                                    placeholder="Email *"
+                                    
                                 />
                             </div>
                             <div class="form-group">
                                 <input
                                     type="tel"
                                     class="form-control"
-                                    bind:value={phoneNumber}
-                                    placeholder="Número Telefónico"
-                                    required
+                                    name="phoneNumber"
+                                    placeholder="Celular *"
+                                    
                                 />
                             </div>
                             <div class="form-group">
                                 <textarea
                                     class="form-control"
-                                    bind:value={message}
+                                    name="message"
                                     placeholder="Mensaje"
-                                    rows="6"
-                                />
+                                    rows="6">
+                                </textarea>
                             </div>
                         </div>
+
+                        <button type="submit" class="btn-rs">
+                            <span class="circle" aria-hidden="true">
+                            <span class="icon arrow" />                                
+                            </span>
+                            <span class="button-text">Enviar</span>
+                        </button>
+
                     </form>
 
-                    <button
+                    <!-- <button
                         type="button"
                         class="btn-rs"
                         id="btnContactForm"
@@ -214,7 +225,9 @@
                                 id="success-icon"
                             />
                         </span>
-                        <span class="button-text">{sentButtonMessage}</span></button>
+                        <span class="button-text">{sentButtonMessage}</span>
+                    </button> -->
+
                 </div>
             </div>
 
