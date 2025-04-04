@@ -163,7 +163,7 @@
                                     id="form-name"
                                     name="name"
                                     placeholder="Nombre y Apellido *"
-                                    
+                                    required
                                 />
                             </div>
                             <div class="form-group">
@@ -173,16 +173,16 @@
                                     id="form-email"
                                     name="email"
                                     placeholder="Email *"
-                                    
+                                    required
                                 />
                             </div>
                             <div class="form-group">
                                 <input
                                     type="tel"
                                     class="form-control"
-                                    name="phoneNumber"
+                                    name="cellphone"
                                     placeholder="Celular *"
-                                    
+                                    required
                                 />
                             </div>
                             <div class="form-group">
