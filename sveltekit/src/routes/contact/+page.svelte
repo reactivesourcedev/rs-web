@@ -190,8 +190,7 @@
                                     class="form-control"
                                     name="message"
                                     placeholder="Mensaje"
-                                    rows="6">
-                                </textarea>
+                                    rows="6"></textarea>
                             </div>
                         </div>
 
