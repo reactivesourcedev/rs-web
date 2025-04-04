@@ -21,8 +21,8 @@ export const actions = {
 
             const mailMessage = {
                 from: NAMECHEAP_EMAIL,
-                to: 'santiago.lozano92@gmail.com',
-                cc: NAMECHEAP_EMAIL,
+                to: NAMECHEAP_EMAIL,
+                cc: 'santiago.lozano92@gmail.com',
                 subject: subject,
                 text: message,
                 html: html,

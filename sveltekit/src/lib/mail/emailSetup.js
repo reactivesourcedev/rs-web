@@ -15,7 +15,7 @@ transporter.verify(function (error, success) {
   if (error) {
     console.error(error);
   } else {
-    console.log("SMTP Server is ready to take send your Emails.");
+    console.log("SMTP Server is ready to send your Emails.");
   }
 });
 
