@@ -57,7 +57,7 @@
                     >Todos los derechos reservados.</span
                 >
             </p>
-            <strong style="font-size: 13px; margin-top: 20px; display: block" class="text-center">Realizamos desarrollo de aplicaciones, aplicativos, apps, programas, software para web, móviles, escritorio y multiplataforma. Para los entornos o plataformas iOS, Android, Windows.</strong>
+            <strong style="font-size: 13px; margin-top: 20px; display: block" class="text-center">Casa de Softare con enfoque al desarrollo de aplicaciones, aplicativos, apps, programas, software para web, móviles, escritorio y multiplataforma. Para los entornos o plataformas iOS, Android, Windows.</strong>
         </div>
     </div>
 </div>
