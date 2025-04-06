@@ -6,6 +6,10 @@
 	import questions from "$lib/quote/questions/es.json";
 	import '$lib/quote/css/style.css';
 	import '$lib/quote/css/form.css';
+	
+	import '/node_modules/reveal.js/dist/reveal.css';
+	import '/node_modules/reveal.js/dist/theme/black.css';
+
 
 	import Reveal from 'reveal.js';
 

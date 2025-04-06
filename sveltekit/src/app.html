@@ -43,9 +43,6 @@
 		<link rel="stylesheet" href="/css/owl.carousel.min.css">
 		<link rel="stylesheet" href="/css/breakpoints.css">
 
-		<link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css" />
-		<link rel="stylesheet" href="/node_modules/reveal.js/dist/theme/black.css" />
-
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -53,6 +50,9 @@
 	</head>
 
 	<body data-sveltekit-preload-data="hover">
+
+		<div style="display: contents">%sveltekit.body%</div>
+
 
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -91,8 +91,6 @@
 				}
 			};
 		</script>
-
-		<div style="display: contents">%sveltekit.body%</div>
 
 	</body>
 
