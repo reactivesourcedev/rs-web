@@ -19,10 +19,10 @@ export const actions = {
             <h6>${cellphone}</h6>
             <pre>${message}</pre>`;
 
+            //cc: 'santiago.lozano92@gmail.com',
             const mailMessage = {
                 from: NAMECHEAP_EMAIL,
-                to: NAMECHEAP_EMAIL,
-                cc: 'santiago.lozano92@gmail.com',
+                to: NAMECHEAP_EMAIL,                
                 subject: subject,
                 text: message,
                 html: html,
