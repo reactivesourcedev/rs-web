@@ -1,6 +1,6 @@
 <script>
     import { _ } from "$lib/services/i18n";
-    import LogoHeaderRS from '$lib/images/logo-header-reactive-source-desarrollo-aplicaciones-moviles-web-apps.png';
+    import LogoHeaderRS from '$lib/images/logo-header-reactive-source-desarrollo-aplicaciones-moviles-web-apps.webp';
 </script>
 
 <div class="container-fluid main p-0">
@@ -12,7 +12,7 @@
             alt="logo header reactive source desarrollo aplicaciones moviles web apps"
         />
         <div class="text">            
-            <div class="content">Desarrollo de Software</div>
+            <div class="content">Desarrollo de Software y Apps</div>
             <div class="dash" />
         </div>
         <h6 class="copy">

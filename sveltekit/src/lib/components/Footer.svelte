@@ -1,6 +1,6 @@
 <script>
     import { _ } from "$lib/services/i18n";
-    import LogoFooterRS from '$lib/images/logo-footer-reactive-source-desarrollo-aplicaciones-moviles-web-apps.png';
+    import LogoFooterRS from '$lib/images/logo-footer-reactive-source-desarrollo-aplicaciones-moviles-web-apps.webp';
     export let language;
 
     let toLanguage = language == "es" ? "en" : "es";

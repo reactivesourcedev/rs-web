@@ -1,7 +1,7 @@
 <script>
     import { onMount, onDestroy } from "svelte";
     import { _ } from "$lib/services/i18n";
-    import Quote from '$lib/images/experiencia-cotizador-reactive-source.png';
+    import Quote from '$lib/images/experiencia-cotizador-reactive-source.webp';
 
     export let language;
 
