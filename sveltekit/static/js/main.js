@@ -6,11 +6,11 @@
       speed: 200,
       container: ".text .content",
       init: function () {
-        /*this.chars = this.text.length;
-        return this.write();*/
+        this.chars = this.text.length;
+        return this.write();
       },
       write: function () {
-        /*$(this.container).append(this.text[this.index]);
+        $(this.container).append(this.text[this.index]);
         if (this.index < this.chars) {
           this.index++;
           return window.setTimeout(function () {
@@ -19,14 +19,13 @@
         } else {
           console.log("started rotation");
           startTextRotation();
-        }*/
+        }
       }
     };
 
   $(document).ready(function () {
     console.log("init");
-    //return app.init(window.andAppsText);
-    //startTextRotation();
+    return app.init(window.andAppsText);
   });
 
 
