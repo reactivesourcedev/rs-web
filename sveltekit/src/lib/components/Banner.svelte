@@ -12,7 +12,7 @@
             alt="logo header reactive source desarrollo aplicaciones moviles web apps"
         />
         <div class="text">            
-            <div class="content">Desarrollo de Software</div>
+            <div class="content">Desarrollo de Software y Apps</div>
             <div class="dash" />
         </div>
         <h6 class="copy">
