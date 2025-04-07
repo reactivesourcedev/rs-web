@@ -26,7 +26,7 @@
   $(document).ready(function () {
     console.log("init");
     //return app.init(window.andAppsText);
-    startTextRotation();
+    //startTextRotation();
   });
 
 

@@ -13,7 +13,7 @@
         />
         <div class="text">            
             <div class="content">Desarrollo de Software y Apps</div>
-            <div class="dash" />
+            <!-- <div class="dash" /> -->
         </div>
         <h6 class="copy">
             Estamos listos para convertir su idea en un producto 
