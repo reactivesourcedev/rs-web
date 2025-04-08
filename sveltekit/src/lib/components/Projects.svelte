@@ -1,11 +1,11 @@
 <script>
     import { _ } from "$lib/services/i18n";
-    import Kidvy from '$lib/images/projects/proyecto-kidvy-app-aplicacion-móvil-reactive-source.jpg';
-    import Curaduria from '$lib/images/projects/proyecto-curaduria-web-reactive-source.jpg';
-    import Taximillas from '$lib/images/projects/proyecto-taximillas-app-aplicacion-móvil-web-reactive-source.jpg';
-    import Quorum from '$lib/images/projects/proyecto-quorum-app-aplicacion-móvil-reactive-source.jpg';
-    import Sigal from '$lib/images/projects/proyecto-sigal-wms-warehouse-management-system-web-reactive-source.jpg';
-    import MatterOfListen from '$lib/images/projects/proyecto-matter-of-listen-app-aplicacion-móvil-reactive-source.jpg';
+    import Kidvy from '$lib/images/projects/proyecto-kidvy-app-aplicacion-móvil-reactive-source.webp';
+    import Curaduria from '$lib/images/projects/proyecto-curaduria-web-reactive-source.webp';
+    import Taximillas from '$lib/images/projects/proyecto-taximillas-app-aplicacion-móvil-web-reactive-source.webp';
+    import Quorum from '$lib/images/projects/proyecto-quorum-app-aplicacion-móvil-reactive-source.webp';
+    import Sigal from '$lib/images/projects/proyecto-sigal-wms-warehouse-management-system-web-reactive-source.webp';
+    import MatterOfListen from '$lib/images/projects/proyecto-matter-of-listen-app-aplicacion-móvil-reactive-source.webp';
 
 </script>
 

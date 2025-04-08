@@ -1,9 +1,9 @@
 <script>
     import { _ } from "$lib/services/i18n";
-    import Website from '$lib/images/services/servicio-desarrollo-sitios-páginas-web-websites-reactive-source.png';
-    import Apps from '$lib/images/services/servicio-desarrollo-aplicacion-móvil-app-reactive-source.png';
-    import Multimedia from '$lib/images/services/servicio-desarrollo-contenido-multimedia-reactive-source.png';
-    import Modular from '$lib/images/services/servicio-desarrollo-modular-reactive-source.png';
+    import Website from '$lib/images/services/servicio-desarrollo-sitios-páginas-web-websites-reactive-source.webp';
+    import Apps from '$lib/images/services/servicio-desarrollo-aplicacion-móvil-app-reactive-source.webp';
+    import Multimedia from '$lib/images/services/servicio-desarrollo-contenido-multimedia-reactive-source.webp';
+    import Modular from '$lib/images/services/servicio-desarrollo-modular-reactive-source.webp';
 
     import { onMount } from 'svelte';
 

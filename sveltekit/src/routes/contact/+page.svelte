@@ -1,8 +1,6 @@
 <script>
     import { onMount, onDestroy } from "svelte";
     import { _ } from '$lib/services/i18n';
-    import Loading2 from '$lib/images/loading2.gif';
-    import Check2 from '$lib/images/check2.png';
 
     let contactFormToken = "";
     let name = "";

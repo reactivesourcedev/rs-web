@@ -1,8 +1,8 @@
 <script>
     import { _ } from "$lib/services/i18n";
-    import Cloud from '$lib/images/experience/experiencia-computacion-nube-reactive-source.jpg';
-    import Agile from '$lib/images/experience/experiencia-desarrollo-agil-reactive-source.jpg';
-    import FullStack from '$lib/images/experience/experiencia-desarrollo-full-stack-reactive-source.jpg';
+    import Cloud from '$lib/images/experience/experiencia-computacion-nube-reactive-source.webp';
+    import Agile from '$lib/images/experience/experiencia-desarrollo-agil-reactive-source.webp';
+    import FullStack from '$lib/images/experience/experiencia-desarrollo-full-stack-reactive-source.webp';
 
 </script>
 

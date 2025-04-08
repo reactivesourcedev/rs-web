@@ -1,10 +1,10 @@
 <script>
   import { _ } from "$lib/services/i18n";
   import { onMount } from "svelte";
-  import Central from '$lib/images/workteam/central-casa-software-reactive-source.png';
-  import Left from '$lib/images/workteam/left-casa-software-reactive-source.png';
-  import Right from '$lib/images/workteam/right-casa-software-reactive-source.png';
-  import Shadow from '$lib/images/workteam/shadow-casa-software-reactive-source.png';
+  import Central from '$lib/images/workteam/central-casa-software-reactive-source.webp';
+  import Left from '$lib/images/workteam/left-casa-software-reactive-source.webp';
+  import Right from '$lib/images/workteam/right-casa-software-reactive-source.webp';
+  import Shadow from '$lib/images/workteam/shadow-casa-software-reactive-source.webp';
 
 
   let wtContent;
