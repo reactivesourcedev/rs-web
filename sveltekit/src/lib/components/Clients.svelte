@@ -1,12 +1,12 @@
 <script>
     import { _ } from "$lib/services/i18n";
-    import Alpina from '$lib/images/clients/AlpinaColor.png';
-    import Capun from '$lib/images/clients/CapunColor.jpg';
-    import Carrera from '$lib/images/clients/CarreraColor.jpg';
-    import CicloCoppi from '$lib/images/clients/CicloCoppiColor.png';
-    import EAE from '$lib/images/clients/EAEColor.png';
-    import Faimedia from '$lib/images/clients/FaimediaColor.png';
-    import LavaRopas from '$lib/images/clients/LavaRopasColor.png';
+    import Alpina from '$lib/images/clients/AlpinaColor.webp';
+    import Capun from '$lib/images/clients/CapunColor.webp';
+    import Carrera from '$lib/images/clients/CarreraColor.webp';
+    import CicloCoppi from '$lib/images/clients/CicloCoppiColor.webp';
+    import EAE from '$lib/images/clients/EAEColor.webp';
+    import Faimedia from '$lib/images/clients/FaimediaColor.webp';
+    import LavaRopas from '$lib/images/clients/LavaRopasColor.webp';
     
     import { onMount } from 'svelte';
 
